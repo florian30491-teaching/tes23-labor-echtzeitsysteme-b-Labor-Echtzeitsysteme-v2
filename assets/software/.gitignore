@@ -1,0 +1,5 @@
+# ignore all files except zip / 7z files inside this folder recursive
+*
+!*.zip
+!*.7z
+!*.bat
