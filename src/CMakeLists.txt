@@ -3,8 +3,13 @@ cmake_minimum_required(VERSION 3.29)
 # Set the project name
 project(LaborEchtzeitsysteme)
 
+# Include the toolchain file if specified
+if(CMAKE_TOOLCHAIN_FILE)
+    include(${CMAKE_TOOLCHAIN_FILE})
+endif()
+
 # Enable verbose makefile
-set(CMAKE_VERBOSE_MAKEFILE ON)
+set(CMAKE_VERBOSE_MAKEFILE OFF)
 
 # Set the C standard version
 set(CMAKE_C_STANDARD 99)
@@ -17,6 +22,12 @@ if(DEBUG)
 else()
     set(CMAKE_BUILD_TYPE Release)
 endif()
+
+# Define the task selection option
+option(TASK_SELECTION "Specify the task selection (e.g., TASK1, TASK2)" "TASK1")
+
+# Pass the TASK_SELECTION to the compiler
+add_compile_definitions(TASK_SELECTION=${TASK_SELECTION})
 
 # Optimization
 set(CMAKE_C_FLAGS_DEBUG "-Og -g")
@@ -107,12 +118,30 @@ set(C_SOURCES
         Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM33_NTZ/non_secure/port.c
         Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM33_NTZ/non_secure/portasm.c
         Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c
+        Tasks/Task1/task1.c
+        Tasks/Task1/task1.h
+        Tasks/Task3/task3.c
+        Tasks/Task3/task3.h
+        Tasks/Task4/task4.c
+        Tasks/Task4/task4.h
+        Tasks/Task5/task5.c
+        Tasks/Task5/task5.h
+        Tasks/Task6/task6.c
+        Tasks/Task6/task6.h
+        Tasks/Task7/task7.c
+        Tasks/Task7/task7.h
+        Tasks/Task8/task8.c
+        Tasks/Task8/task8.h
         #Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_1.c
 )
 
 # Assembler sources
 set(ASM_SOURCES
         startup_stm32u575xx.s
+        Tasks/Task2/task2.c
+        Tasks/Task2/task2.h
+        Tasks/tasks.c
+        Tasks/tasks.h
 )
 
 # Include directories
@@ -126,6 +155,15 @@ set(INCLUDE_DIRS
         Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM33_NTZ/non_secure/
         Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/
         Middlewares/Third_Party/CMSIS/RTOS2/Include/
+        Tasks/Task1
+        Tasks/Task2
+        Tasks/Task3
+        Tasks/Task4
+        Tasks/Task5
+        Tasks/Task6
+        Tasks/Task7
+        Tasks/Task8
+        Tasks
 )
 
 include_directories(${INCLUDE_DIRS})
