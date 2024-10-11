@@ -54,36 +54,36 @@ set(GNUExtractionTarget "")
 #    message(STATUS "Directory for winIDEA Debugger exists.")
 #endif()
 
-# Check if directory for gnu tools for stm32 exists under toolchain directory
-if(NOT EXISTS ${CMAKE_SOURCE_DIR}/toolchain/gnu-tools-for-stm32)
-    message(STATUS "Directory for GNU Tools for STM32 does not exist. Downloading and extracting...")
-
-    # Download and extract GNU Tools for STM32
-    FetchContent_Declare(
-            gnu-tools-for-stm32
-            URL https://github.com/florian30491-teaching/Labor-Echtzeitsysteme-Public/releases/download/v1.0.0/gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626.7z
-            SOURCE_DIR ${CMAKE_SOURCE_DIR}/toolchain/gnu-tools-for-stm32
-            DOWNLOAD_EXTRACT_TIMESTAMP TRUE
-    )
-
-    # Ensure the content is downloaded and extracted
-    FetchContent_MakeAvailable(gnu-tools-for-stm32)
-
-    # Custom command to extract the 7z archive
-    add_custom_command(
-            OUTPUT ${CMAKE_BINARY_DIR}/toolchain/gnu-tools-for-stm32_extracted
-            COMMAND 7z x ${CMAKE_SOURCE_DIR}/toolchain/gnu-tools-for-stm32/gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626.7z -o${CMAKE_BINARY_DIR}/toolchain
-            COMMAND ${CMAKE_COMMAND} -E touch ${CMAKE_BINARY_DIR}/toolchain/gnu-tools-for-stm32_extracted
-            DEPENDS ${CMAKE_SOURCE_DIR}/toolchain/gnu-tools-for-stm32/gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626.7z
-            COMMENT "Entpacke GNU Tools for STM32 nach ${CMAKE_BINARY_DIR}/toolchain..."
-    )
-
-    # Create a target to track the extraction process
-    add_custom_target(ExtractedGNU ALL DEPENDS ${CMAKE_BINARY_DIR}/toolchain/gnu-tools-for-stm32_extracted)
-    set(GNUExtractionTarget ExtractedGNU)
-else()
-    message(STATUS "Directory for GNU Tools for STM32 exists.")
-endif()
+## Check if directory for gnu tools for stm32 exists under toolchain directory
+#if(NOT EXISTS ${CMAKE_SOURCE_DIR}/toolchain/gnu-tools-for-stm32)
+#    message(STATUS "Directory for GNU Tools for STM32 does not exist. Downloading and extracting...")
+#
+#    # Download and extract GNU Tools for STM32
+#    FetchContent_Declare(
+#            gnu-tools-for-stm32
+#            URL https://github.com/florian30491-teaching/Labor-Echtzeitsysteme-Public/releases/download/v1.0.0/gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626.7z
+#            SOURCE_DIR ${CMAKE_SOURCE_DIR}/toolchain/gnu-tools-for-stm32
+#            DOWNLOAD_EXTRACT_TIMESTAMP TRUE
+#    )
+#
+#    # Ensure the content is downloaded and extracted
+#    FetchContent_MakeAvailable(gnu-tools-for-stm32)
+#
+#    # Custom command to extract the 7z archive
+#    add_custom_command(
+#            OUTPUT ${CMAKE_BINARY_DIR}/toolchain/gnu-tools-for-stm32_extracted
+#            COMMAND 7z x ${CMAKE_SOURCE_DIR}/toolchain/gnu-tools-for-stm32/gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626.7z -o${CMAKE_BINARY_DIR}/toolchain
+#            COMMAND ${CMAKE_COMMAND} -E touch ${CMAKE_BINARY_DIR}/toolchain/gnu-tools-for-stm32_extracted
+#            DEPENDS ${CMAKE_SOURCE_DIR}/toolchain/gnu-tools-for-stm32/gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626.7z
+#            COMMENT "Entpacke GNU Tools for STM32 nach ${CMAKE_BINARY_DIR}/toolchain..."
+#    )
+#
+#    # Create a target to track the extraction process
+#    add_custom_target(ExtractedGNU ALL DEPENDS ${CMAKE_BINARY_DIR}/toolchain/gnu-tools-for-stm32_extracted)
+#    set(GNUExtractionTarget ExtractedGNU)
+#else()
+#    message(STATUS "Directory for GNU Tools for STM32 exists.")
+#endif()
 
 # Enable compile command to ease indexing with e.g. clangd
 set(CMAKE_EXPORT_COMPILE_COMMANDS TRUE)
