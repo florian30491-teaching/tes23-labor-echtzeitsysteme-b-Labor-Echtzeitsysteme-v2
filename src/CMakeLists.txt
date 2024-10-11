@@ -195,8 +195,8 @@ target_link_options(${PROJECT_NAME} PRIVATE
         -mthumb
         -mfpu=fpv4-sp-d16
         -mfloat-abi=hard
-        -specs=nano.specs
-        -T${CMAKE_SOURCE_DIR}/STM32U575xx_FLASH.ld
+        #-specs=nano.specs
+        #-T${CMAKE_SOURCE_DIR}/STM32U575xx_FLASH.ld
         -lgcc
         -lc
         -lm
