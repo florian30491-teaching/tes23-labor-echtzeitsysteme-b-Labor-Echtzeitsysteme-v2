@@ -19,6 +19,22 @@
          <FileType>1</FileType>
          <ScrollPos>64</ScrollPos>
         </__.0>
+        <__.10>
+         <BookmarkList></BookmarkList>
+         <CaretPos>2234</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>C:\GitHub2\Labor-Echtzeitsysteme\src\startup_stm32u575xx.s</FileName>
+         <FileType>0</FileType>
+         <ScrollPos>57</ScrollPos>
+        </__.10>
+        <__.11>
+         <BookmarkList></BookmarkList>
+         <CaretPos>12717</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>C:\GitHub2\Labor-Echtzeitsysteme\src\Drivers\STM32U5xx_HAL_Driver\Src\stm32u5xx_hal.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>337</ScrollPos>
+        </__.11>
         <__.1>
          <BookmarkList></BookmarkList>
          <CaretPos>3245</CaretPos>
@@ -45,28 +61,52 @@
         </__.3>
         <__.4>
          <BookmarkList></BookmarkList>
+         <CaretPos>9236</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>C:\Users\gv9408\Downloads\CubeMcuRawText\CubeMcuRaw\Core\Src\system_stm32u5xx.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>200</ScrollPos>
+        </__.4>
+        <__.5>
+         <BookmarkList></BookmarkList>
          <CaretPos>2696</CaretPos>
          <Encoding>1</Encoding>
          <FileName>C:\Users\gv9408\Downloads\TestCube2\TestCubemx\Core\Src\stm32u5xx_it.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>70</ScrollPos>
-        </__.4>
-        <__.5>
+        </__.5>
+        <__.6>
          <BookmarkList></BookmarkList>
          <CaretPos>109721</CaretPos>
          <Encoding>1</Encoding>
          <FileName>C:\Users\gv9408\Downloads\TestCube2\TestCubemx\Drivers\STM32U5xx_HAL_Driver\Src\stm32u5xx_hal_sd.c</FileName>
          <FileType>1</FileType>
          <ScrollPos>3293</ScrollPos>
-        </__.5>
-        <__.6>
-         <BookmarkList></BookmarkList>
-         <CaretPos>8565</CaretPos>
-         <Encoding>1</Encoding>
-         <FileName>C:\Users\gv9408\Downloads\CubeMcuRawText\CubeMcuRaw\Core\Src\system_stm32u5xx.c</FileName>
-         <FileType>1</FileType>
-         <ScrollPos>179</ScrollPos>
         </__.6>
+        <__.7>
+         <BookmarkList></BookmarkList>
+         <CaretPos>2234</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>C:\Users\gv9408\Downloads\CubeMcuRawText\CubeMcuRaw\Core\Startup\startup_stm32u575aiixq.s</FileName>
+         <FileType>0</FileType>
+         <ScrollPos>57</ScrollPos>
+        </__.7>
+        <__.8>
+         <BookmarkList></BookmarkList>
+         <CaretPos>2523</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>C:\Users\gv9408\Downloads\CubeMcuRawText\CubeMcuRaw\Core\Src\main.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>59</ScrollPos>
+        </__.8>
+        <__.9>
+         <BookmarkList></BookmarkList>
+         <CaretPos>161489</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>C:\GitHub2\Labor-Echtzeitsysteme\src\Drivers\CMSIS\Include\core_cm33.h</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>2375</ScrollPos>
+        </__.9>
        </EditorPersist>
       </EditorPersist>
      </REG_ROOT>
@@ -81,6 +121,188 @@
      </REG_HEADER>
      <REG_ROOT>
       <RegVer>1297137668</RegVer>
+      <ANGUIData.0>
+       <Filetime type="B">AMHDCMDKDKBHNLAB</Filetime>
+       <GUID type="B">MHCKLEGBBOCFMEEBKGBBIIPKGLAPMDCF</GUID>
+       <CVData>
+        <Columns>
+         <SortBy>0</SortBy>
+         <SortSmallLast>false</SortSmallLast>
+         <Columns>
+          <__.0>
+           <Pos>0</Pos>
+           <Visible>true</Visible>
+           <Width>300</Width>
+          </__.0>
+          <__.1>
+           <Pos>0</Pos>
+           <Visible>true</Visible>
+           <Width>200</Width>
+          </__.1>
+          <__.2>
+           <Pos>0</Pos>
+           <Visible>true</Visible>
+           <Width>200</Width>
+          </__.2>
+          <__.3>
+           <Pos>0</Pos>
+           <Visible>true</Visible>
+           <Width>200</Width>
+          </__.3>
+          <__.4>
+           <Pos>0</Pos>
+           <Visible>true</Visible>
+           <Width>150</Width>
+          </__.4>
+          <__.5>
+           <Pos>0</Pos>
+           <Visible>true</Visible>
+           <Width>200</Width>
+          </__.5>
+          <__.6>
+           <Pos>0</Pos>
+           <Visible>true</Visible>
+           <Width>100</Width>
+          </__.6>
+         </Columns>
+         <Sort>
+          <Column>0</Column>
+          <Direction>Ascending</Direction>
+         </Sort>
+        </Columns>
+        <Search>
+         <MatchCase>false</MatchCase>
+         <Text></Text>
+         <Up>false</Up>
+        </Search>
+       </CVData>
+       <ProfilerData>
+        <InitialLayoutProcessed>true</InitialLayoutProcessed>
+        <Docking>
+         <PrimaryDocumentPaneId>-1</PrimaryDocumentPaneId>
+         <Frames>
+          <__.0>
+           <FocusedViewId>0</FocusedViewId>
+           <FrameState>9</FrameState>
+           <IsPrimary>true</IsPrimary>
+           <Bounds>
+            <Bottom>534</Bottom>
+            <Left>0</Left>
+            <Right>1435</Right>
+            <Top>0</Top>
+           </Bounds>
+           <Dock>
+            <DockType>None</DockType>
+            <Extent>1</Extent>
+            <IsDocumentPane>false</IsDocumentPane>
+            <IsPinned>false</IsPinned>
+            <IsTabbed>false</IsTabbed>
+            <Orientation>Vertical</Orientation>
+            <TopTabViewId>-1</TopTabViewId>
+            <ViewId>-1</ViewId>
+            <Children>
+             <__.0>
+              <DockType>View</DockType>
+              <Extent>0.5</Extent>
+              <IsDocumentPane>false</IsDocumentPane>
+              <IsPinned>false</IsPinned>
+              <IsTabbed>false</IsTabbed>
+              <Orientation>Vertical</Orientation>
+              <TopTabViewId>-1</TopTabViewId>
+              <ViewId>0</ViewId>
+             </__.0>
+             <__.1>
+              <DockType>View</DockType>
+              <Extent>0.5</Extent>
+              <IsDocumentPane>false</IsDocumentPane>
+              <IsPinned>false</IsPinned>
+              <IsTabbed>false</IsTabbed>
+              <Orientation>Horizontal</Orientation>
+              <TopTabViewId>-1</TopTabViewId>
+              <ViewId>1</ViewId>
+             </__.1>
+            </Children>
+           </Dock>
+          </__.0>
+         </Frames>
+        </Docking>
+        <PRSettings>
+         <DisplayDownloadFile>false</DisplayDownloadFile>
+         <DisplayInspectorGroup>false</DisplayInspectorGroup>
+         <MaxNumberOfStates>128</MaxNumberOfStates>
+         <SynchronizeAllProfilerViewsFilters>false</SynchronizeAllProfilerViewsFilters>
+         <SynchronizeProfilerViews>true</SynchronizeProfilerViews>
+         <UseProcessNameAsRoot>false</UseProcessNameAsRoot>
+        </PRSettings>
+        <TimelineViews>
+         <__.0>
+          <ScrollPosition>304</ScrollPosition>
+          <SnapOnFindEvent>true</SnapOnFindEvent>
+          <TimeLeft>304</TimeLeft>
+          <TimeRight>3000000003</TimeRight>
+          <ZoomLevel>50000</ZoomLevel>
+          <ViewData>
+           <CurrentApplicationIndex>65535</CurrentApplicationIndex>
+           <CurrentContextIndex>65535</CurrentContextIndex>
+           <HideAreasWithNoActivity>false</HideAreasWithNoActivity>
+           <ViewTitle>Profiler Timeline</ViewTitle>
+           <Pane>
+            <Areas.areaAux>
+             <Height>0</Height>
+             <Sort>
+              <Column>0</Column>
+              <Direction>Ascending</Direction>
+             </Sort>
+            </Areas.areaAux>
+            <Areas.areaCode>
+             <Height>100</Height>
+             <Sort>
+              <Column>0</Column>
+              <Direction>Ascending</Direction>
+             </Sort>
+            </Areas.areaCode>
+            <Areas.areaData>
+             <Height>0</Height>
+             <Sort>
+              <Column>0</Column>
+              <Direction>Ascending</Direction>
+             </Sort>
+            </Areas.areaData>
+            <ColumnWidths>
+             <__.0>
+              <Pos>0</Pos>
+              <Visible>true</Visible>
+              <Width>150</Width>
+             </__.0>
+             <__.1>
+              <Pos>0</Pos>
+              <Visible>true</Visible>
+              <Width>40</Width>
+             </__.1>
+             <__.2>
+              <Pos>0</Pos>
+              <Visible>true</Visible>
+              <Width>800</Width>
+             </__.2>
+            </ColumnWidths>
+           </Pane>
+          </ViewData>
+         </__.0>
+        </TimelineViews>
+        <ViewData>
+         <__.0>
+          <DataIndex>0</DataIndex>
+          <ViewId>0</ViewId>
+          <ViewType>Timeline</ViewType>
+         </__.0>
+         <__.1>
+          <DataIndex>-1</DataIndex>
+          <ViewId>1</ViewId>
+          <ViewType>CoverageStatistics</ViewType>
+         </__.1>
+        </ViewData>
+       </ProfilerData>
+      </ANGUIData.0>
      </REG_ROOT>
     </LAOptions>
    </LA>
@@ -94,6 +316,22 @@
    <REG_ROOT>
     <RegVer>1297137668</RegVer>
     <DesktopLayout>
+     <FileHistory>
+      <FileHistoryEntries>
+       <__.0>
+        <RelativeFilePath>..\TestCube2\TestCubemx\Drivers\STM32U5xx_HAL_Driver\Src\stm32u5xx_hal_sd.c</RelativeFilePath>
+       </__.0>
+       <__.1>
+        <RelativeFilePath>C:\GitHub2\Labor-Echtzeitsysteme\src\Core\Src\sdmmc.c</RelativeFilePath>
+       </__.1>
+       <__.2>
+        <RelativeFilePath>C:\GitHub2\Labor-Echtzeitsysteme\src\startup_stm32u575xx.S</RelativeFilePath>
+       </__.2>
+       <__.3>
+        <RelativeFilePath>C:\GitHub2\Labor-Echtzeitsysteme\src\Core\Src\main.c</RelativeFilePath>
+       </__.3>
+      </FileHistoryEntries>
+     </FileHistory>
      <ToolbarData>
       <Toolbars.CMake>
        <Opened>false</Opened>
@@ -117,61 +355,57 @@
      <ViewData>
       <AllViewBaseData>
        <__.0>
-        <ViewId>0</ViewId>
+        <ViewId>13</ViewId>
         <ViewType>Symbols</ViewType>
        </__.0>
        <__.10>
-        <ViewId>10</ViewId>
+        <ViewId>23</ViewId>
         <ViewType>Document</ViewType>
        </__.10>
        <__.11>
-        <ViewId>11</ViewId>
+        <ViewId>24</ViewId>
         <ViewType>Document</ViewType>
        </__.11>
-       <__.12>
-        <ViewId>12</ViewId>
-        <ViewType>Document</ViewType>
-       </__.12>
        <__.1>
-        <ViewId>2</ViewId>
+        <ViewId>15</ViewId>
         <ViewType>Locals</ViewType>
        </__.1>
        <__.2>
-        <ViewId>3</ViewId>
+        <ViewId>16</ViewId>
         <ViewType>CustomWatch</ViewType>
        </__.2>
        <__.3>
-        <ViewId>1</ViewId>
-        <ViewType>Output_Progress</ViewType>
+        <ViewId>17</ViewId>
+        <ViewType>Document</ViewType>
        </__.3>
        <__.4>
-        <ViewId>4</ViewId>
-        <ViewType>Disassembly</ViewType>
+        <ViewId>18</ViewId>
+        <ViewType>Document</ViewType>
        </__.4>
        <__.5>
-        <ViewId>5</ViewId>
+        <ViewId>19</ViewId>
         <ViewType>Document</ViewType>
        </__.5>
        <__.6>
-        <ViewId>6</ViewId>
+        <ViewId>20</ViewId>
         <ViewType>Document</ViewType>
        </__.6>
        <__.7>
-        <ViewId>7</ViewId>
-        <ViewType>Callstack</ViewType>
+        <ViewId>14</ViewId>
+        <ViewType>Output_Progress</ViewType>
        </__.7>
        <__.8>
-        <ViewId>8</ViewId>
+        <ViewId>21</ViewId>
         <ViewType>Document</ViewType>
        </__.8>
        <__.9>
-        <ViewId>9</ViewId>
-        <ViewType>Document</ViewType>
+        <ViewId>22</ViewId>
+        <ViewType>Disassembly</ViewType>
        </__.9>
       </AllViewBaseData>
       <DissasemblyViews>
        <__.0>
-        <ViewId>4</ViewId>
+        <ViewId>22</ViewId>
         <ViewType>Disassembly</ViewType>
         <ColumnData>
          <__.0>
@@ -194,50 +428,44 @@
       </DissasemblyViews>
       <DocumentViews>
        <__.0>
-        <RelativePath>..\Core\Src\main.c</RelativePath>
-        <ViewId>5</ViewId>
+        <RelativePath>..\CubeMcuRawText\CubeMcuRaw\Core\Startup\startup_stm32u575aiixq.s</RelativePath>
+        <ViewId>17</ViewId>
         <ViewType>Document</ViewType>
        </__.0>
        <__.1>
-        <RelativePath>..\startup_stm32u575xx.S</RelativePath>
-        <ViewId>6</ViewId>
+        <RelativePath>..\CubeMcuRawText\CubeMcuRaw\Core\Src\main.c</RelativePath>
+        <ViewId>18</ViewId>
         <ViewType>Document</ViewType>
        </__.1>
        <__.2>
-        <RelativePath>..\Core\Src\sdmmc.c</RelativePath>
-        <ViewId>8</ViewId>
+        <RelativePath>..\CubeMcuRawText\CubeMcuRaw\Core\Src\system_stm32u5xx.c</RelativePath>
+        <ViewId>19</ViewId>
         <ViewType>Document</ViewType>
        </__.2>
        <__.3>
-        <RelativePath>C:\Users\gv9408\Downloads\TestCube2\TestCubemx\Drivers\STM32U5xx_HAL_Driver\Src\stm32u5xx_hal_sd.c</RelativePath>
-        <ViewId>9</ViewId>
+        <RelativePath>stm32u5test.trd</RelativePath>
+        <ViewId>20</ViewId>
         <ViewType>Document</ViewType>
        </__.3>
        <__.4>
-        <RelativePath>C:\Users\gv9408\Downloads\TestCube2\TestCubemx\Core\Src\stm32u5xx_it.c</RelativePath>
-        <ViewId>10</ViewId>
+        <RelativePath>C:\GitHub2\Labor-Echtzeitsysteme\src\Drivers\CMSIS\Include\core_cm33.h</RelativePath>
+        <ViewId>21</ViewId>
         <ViewType>Document</ViewType>
        </__.4>
        <__.5>
-        <RelativePath>C:\Users\gv9408\Downloads\CubeMcuRawText\CubeMcuRaw\Core\Src\system_stm32u5xx.c</RelativePath>
-        <ViewId>11</ViewId>
+        <RelativePath>C:\GitHub2\Labor-Echtzeitsysteme\src\startup_stm32u575xx.s</RelativePath>
+        <ViewId>23</ViewId>
         <ViewType>Document</ViewType>
        </__.5>
        <__.6>
-        <RelativePath>C:\Users\gv9408\Downloads\CubeMcuRawText\CubeMcuRaw\Core\Src\stm32u5xx_it.c</RelativePath>
-        <ViewId>12</ViewId>
+        <RelativePath>C:\GitHub2\Labor-Echtzeitsysteme\src\Drivers\STM32U5xx_HAL_Driver\Src\stm32u5xx_hal.c</RelativePath>
+        <ViewId>24</ViewId>
         <ViewType>Document</ViewType>
        </__.6>
       </DocumentViews>
-      <OtherViews>
-       <__.0>
-        <ViewId>7</ViewId>
-        <ViewType>Callstack</ViewType>
-       </__.0>
-      </OtherViews>
       <OutputViews>
        <__.0>
-        <ViewId>1</ViewId>
+        <ViewId>14</ViewId>
         <ViewType>Output_Progress</ViewType>
         <FindData>
          <IsInReplaceMode>false</IsInReplaceMode>
@@ -247,7 +475,7 @@
       </OutputViews>
       <SymbolsViews>
        <__.0>
-        <ViewId>0</ViewId>
+        <ViewId>13</ViewId>
         <ViewType>Symbols</ViewType>
         <TreeData>
          <ItemActionFunc>GotoSource</ItemActionFunc>
@@ -262,6 +490,12 @@
           <RootItem>
            <Name></Name>
            <Options>0</Options>
+           <ChildItems>
+            <__.0>
+             <Name>App/CORE_CM33</Name>
+             <Options>36</Options>
+            </__.0>
+           </ChildItems>
           </RootItem>
          </TreeState>
         </TreeData>
@@ -269,7 +503,7 @@
       </SymbolsViews>
       <VariableViews>
        <__.0>
-        <ViewId>2</ViewId>
+        <ViewId>15</ViewId>
         <ViewType>Locals</ViewType>
         <ColumnData>
          <__.0>
@@ -303,7 +537,7 @@
       <WatchViews>
        <__.0>
         <Name>Watch</Name>
-        <ViewId>3</ViewId>
+        <ViewId>16</ViewId>
         <ViewType>CustomWatch</ViewType>
         <ColumnData>
          <__.0>
@@ -349,7 +583,21 @@
           <InitScript></InitScript>
          </PaneMiscData.3>
          <VariableData>
-          <IsRealTimeEnabled>false</IsRealTimeEnabled>
+          <IsRealTimeEnabled>true</IsRealTimeEnabled>
+          <Variables>
+           <__.0>
+            <Name>delay,d</Name>
+            <ExpressionDisplay>
+             <Color>false</Color>
+             <ColorBack>16769216</ColorBack>
+             <ColorText>0</ColorText>
+             <Enabled>false</Enabled>
+             <Hi>0</Hi>
+             <Lo>0</Lo>
+             <Scale>Linear</Scale>
+            </ExpressionDisplay>
+           </__.0>
+          </Variables>
          </VariableData>
          <WatchPaneData.0>
           <IsRealTimeEnabled>false</IsRealTimeEnabled>
@@ -371,14 +619,14 @@
       <PrimaryDocumentPaneId>4</PrimaryDocumentPaneId>
       <Frames>
        <__.0>
-        <FocusedViewId>12</FocusedViewId>
+        <FocusedViewId>24</FocusedViewId>
         <FrameState>3</FrameState>
         <IsPrimary>true</IsPrimary>
         <Bounds>
-         <Bottom>1083</Bottom>
-         <Left>724</Left>
-         <Right>2658</Right>
-         <Top>43</Top>
+         <Bottom>1040</Bottom>
+         <Left>42</Left>
+         <Right>1976</Right>
+         <Top>0</Top>
         </Bounds>
         <Dock>
          <DockType>None</DockType>
@@ -402,7 +650,7 @@
            <Children>
             <__.0>
              <DockType>None</DockType>
-             <Extent>0.682002</Extent>
+             <Extent>0.223733</Extent>
              <IsDocumentPane>false</IsDocumentPane>
              <IsPinned>false</IsPinned>
              <IsTabbed>false</IsTabbed>
@@ -418,7 +666,7 @@
                <IsTabbed>false</IsTabbed>
                <Orientation>None</Orientation>
                <TopTabViewId>-1</TopTabViewId>
-               <ViewId>0</ViewId>
+               <ViewId>13</ViewId>
               </__.0>
               <__.1>
                <DockType>None</DockType>
@@ -427,7 +675,7 @@
                <IsPinned>false</IsPinned>
                <IsTabbed>true</IsTabbed>
                <Orientation>None</Orientation>
-               <TopTabViewId>12</TopTabViewId>
+               <TopTabViewId>24</TopTabViewId>
                <ViewId>-1</ViewId>
                <Children>
                 <__.0>
@@ -438,7 +686,7 @@
                  <IsTabbed>false</IsTabbed>
                  <Orientation>None</Orientation>
                  <TopTabViewId>-1</TopTabViewId>
-                 <ViewId>5</ViewId>
+                 <ViewId>17</ViewId>
                 </__.0>
                 <__.1>
                  <DockType>Document</DockType>
@@ -448,7 +696,7 @@
                  <IsTabbed>false</IsTabbed>
                  <Orientation>None</Orientation>
                  <TopTabViewId>-1</TopTabViewId>
-                 <ViewId>6</ViewId>
+                 <ViewId>18</ViewId>
                 </__.1>
                 <__.2>
                  <DockType>Document</DockType>
@@ -458,7 +706,7 @@
                  <IsTabbed>false</IsTabbed>
                  <Orientation>None</Orientation>
                  <TopTabViewId>-1</TopTabViewId>
-                 <ViewId>8</ViewId>
+                 <ViewId>19</ViewId>
                 </__.2>
                 <__.3>
                  <DockType>Document</DockType>
@@ -468,7 +716,7 @@
                  <IsTabbed>false</IsTabbed>
                  <Orientation>None</Orientation>
                  <TopTabViewId>-1</TopTabViewId>
-                 <ViewId>9</ViewId>
+                 <ViewId>21</ViewId>
                 </__.3>
                 <__.4>
                  <DockType>Document</DockType>
@@ -478,7 +726,7 @@
                  <IsTabbed>false</IsTabbed>
                  <Orientation>None</Orientation>
                  <TopTabViewId>-1</TopTabViewId>
-                 <ViewId>10</ViewId>
+                 <ViewId>23</ViewId>
                 </__.4>
                 <__.5>
                  <DockType>Document</DockType>
@@ -488,25 +736,15 @@
                  <IsTabbed>false</IsTabbed>
                  <Orientation>None</Orientation>
                  <TopTabViewId>-1</TopTabViewId>
-                 <ViewId>11</ViewId>
+                 <ViewId>24</ViewId>
                 </__.5>
-                <__.6>
-                 <DockType>Document</DockType>
-                 <Extent>1</Extent>
-                 <IsDocumentPane>false</IsDocumentPane>
-                 <IsPinned>false</IsPinned>
-                 <IsTabbed>false</IsTabbed>
-                 <Orientation>None</Orientation>
-                 <TopTabViewId>-1</TopTabViewId>
-                 <ViewId>12</ViewId>
-                </__.6>
                </Children>
               </__.1>
              </Children>
             </__.0>
             <__.1>
              <DockType>None</DockType>
-             <Extent>0.317998</Extent>
+             <Extent>0.112763</Extent>
              <IsDocumentPane>false</IsDocumentPane>
              <IsPinned>false</IsPinned>
              <IsTabbed>false</IsTabbed>
@@ -522,7 +760,7 @@
                <IsTabbed>false</IsTabbed>
                <Orientation>Vertical</Orientation>
                <TopTabViewId>-1</TopTabViewId>
-               <ViewId>1</ViewId>
+               <ViewId>14</ViewId>
               </__.0>
               <__.1>
                <DockType>View</DockType>
@@ -532,7 +770,7 @@
                <IsTabbed>false</IsTabbed>
                <Orientation>None</Orientation>
                <TopTabViewId>-1</TopTabViewId>
-               <ViewId>2</ViewId>
+               <ViewId>15</ViewId>
               </__.1>
               <__.2>
                <DockType>View</DockType>
@@ -542,43 +780,43 @@
                <IsTabbed>false</IsTabbed>
                <Orientation>Vertical</Orientation>
                <TopTabViewId>-1</TopTabViewId>
-               <ViewId>3</ViewId>
+               <ViewId>16</ViewId>
               </__.2>
              </Children>
             </__.1>
+            <__.2>
+             <DockType>None</DockType>
+             <Extent>0.663504</Extent>
+             <IsDocumentPane>true</IsDocumentPane>
+             <IsPinned>false</IsPinned>
+             <IsTabbed>true</IsTabbed>
+             <Orientation>None</Orientation>
+             <TopTabViewId>20</TopTabViewId>
+             <ViewId>-1</ViewId>
+             <Children>
+              <__.0>
+               <DockType>Document</DockType>
+               <Extent>1</Extent>
+               <IsDocumentPane>false</IsDocumentPane>
+               <IsPinned>false</IsPinned>
+               <IsTabbed>false</IsTabbed>
+               <Orientation>None</Orientation>
+               <TopTabViewId>-1</TopTabViewId>
+               <ViewId>20</ViewId>
+              </__.0>
+             </Children>
+            </__.2>
            </Children>
           </__.0>
           <__.1>
-           <DockType>None</DockType>
+           <DockType>View</DockType>
            <Extent>0.25</Extent>
            <IsDocumentPane>false</IsDocumentPane>
            <IsPinned>false</IsPinned>
-           <IsTabbed>true</IsTabbed>
-           <Orientation>None</Orientation>
-           <TopTabViewId>4</TopTabViewId>
-           <ViewId>-1</ViewId>
-           <Children>
-            <__.0>
-             <DockType>View</DockType>
-             <Extent>1</Extent>
-             <IsDocumentPane>false</IsDocumentPane>
-             <IsPinned>false</IsPinned>
-             <IsTabbed>false</IsTabbed>
-             <Orientation>None</Orientation>
-             <TopTabViewId>-1</TopTabViewId>
-             <ViewId>4</ViewId>
-            </__.0>
-            <__.1>
-             <DockType>View</DockType>
-             <Extent>1</Extent>
-             <IsDocumentPane>false</IsDocumentPane>
-             <IsPinned>false</IsPinned>
-             <IsTabbed>false</IsTabbed>
-             <Orientation>None</Orientation>
-             <TopTabViewId>-1</TopTabViewId>
-             <ViewId>7</ViewId>
-            </__.1>
-           </Children>
+           <IsTabbed>false</IsTabbed>
+           <Orientation>Vertical</Orientation>
+           <TopTabViewId>-1</TopTabViewId>
+           <ViewId>22</ViewId>
           </__.1>
          </Children>
         </Dock>
@@ -599,6 +837,10 @@
       </FindInFilesDialogData>
      </GlobalData>
      <History>
+      <ComboBox>
+       <ComboBoxes>
+       </ComboBoxes>
+      </ComboBox>
      </History>
      <Options>
       <CallstackWindow>

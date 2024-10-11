@@ -146,7 +146,7 @@
            <Area></Area>
            <Load>true</Load>
            <OverrideMemArea>false</OverrideMemArea>
-           <Path>C:\Users\gv9408\Downloads\CubeMcuRawText\CubeMcuRaw\Debug\CubeMcuRaw.elf</Path>
+           <Path>C:\GitHub2\Labor-Echtzeitsysteme\src\build\Task1_Debug\Labor-Echtzeitsysteme.elf</Path>
            <UseDefaultMSID>true</UseDefaultMSID>
            <MSID>
             <App>0x0</App>
@@ -233,7 +233,7 @@
       <SoCs>
        <__.0>
         <Enabled>true</Enabled>
-        <ProbeURL></ProbeURL>
+        <ProbeURL>System</ProbeURL>
         <SFRName>STM32U575xI</SFRName>
         <UserName>MCU</UserName>
         <DLFs_Program>
@@ -243,7 +243,7 @@
            <Area></Area>
            <Load>true</Load>
            <OverrideMemArea>false</OverrideMemArea>
-           <Path>C:\Users\gv9408\Downloads\CubeMcuRawText\CubeMcuRaw\Debug\CubeMcuRaw.elf</Path>
+           <Path>C:\GitHub2\Labor-Echtzeitsysteme\src\build\Task1_Debug\Labor-Echtzeitsysteme.elf</Path>
            <UseDefaultMSID>true</UseDefaultMSID>
            <MSID>
             <App>0x0</App>
@@ -581,20 +581,6 @@
     </Mode>
     <Op_System>
      <Debug>
-      <BPs>
-       <__.0>
-        <ActionEnabled>false</ActionEnabled>
-        <ActionParams></ActionParams>
-        <ActionScript></ActionScript>
-        <ActionShow>false</ActionShow>
-        <Condition>false</Condition>
-        <Count>0</Count>
-        <Enabled>true</Enabled>
-        <Expression></Expression>
-        <Location>&quot;..\Core\Src\main.c&quot;::145</Location>
-        <ProcessFilter></ProcessFilter>
-       </__.0>
-      </BPs>
       <Processes>
        <__.0>
         <URL>App/CORE_CM33</URL>
@@ -652,7 +638,7 @@
     <RegVer>1297137668</RegVer>
     <Project_Local>
      <Project.0>
-      <DefaultTargetName>LaborEchtzeitsysteme - Debug</DefaultTargetName>
+      <DefaultTargetName>stm32u5test - Debug</DefaultTargetName>
      </Project.0>
     </Project_Local>
    </REG_ROOT>
@@ -2685,8 +2671,8 @@
          <Scripts></Scripts>
         </Trace_Done>
         <Trace_Init>
-         <Execute>Default</Execute>
-         <Scripts></Scripts>
+         <Execute>Custom</Execute>
+         <Scripts>$(SFR_FILE_DIR)/STM32U5xx_TraceInit.cpp(&quot;TraceData0=PORT_C9&quot;,&quot;TraceData1=PORT_C&quot;,&quot;TraceData3=PORT_C&quot;)</Scripts>
         </Trace_Init>
         <Trace_Init_BeforeRun>
          <Execute>Default</Execute>
@@ -2775,8 +2761,8 @@
         <Breakpoints>HW</Breakpoints>
         <CacheSWBPs>false</CacheSWBPs>
         <CalibrateClockVref>32</CalibrateClockVref>
-        <CalibratePhase>0</CalibratePhase>
-        <CalibrateVref>32</CalibrateVref>
+        <CalibratePhase>4</CalibratePhase>
+        <CalibrateVref>52</CalibrateVref>
         <ClockkHz>1000</ClockkHz>
         <CycleDuration>1e-09</CycleDuration>
         <DebugChannel>JTAG</DebugChannel>
@@ -2848,8 +2834,8 @@
         <CacheDL>0</CacheDL>
         <CacheSWBPs>0</CacheSWBPs>
         <CalibrateClockVref>32</CalibrateClockVref>
-        <CalibratePhase>0</CalibratePhase>
-        <CalibrateVref>32</CalibrateVref>
+        <CalibratePhase>4</CalibratePhase>
+        <CalibrateVref>52</CalibrateVref>
         <ClockkHz>1000</ClockkHz>
         <CycleDuration type="D">0.0000000010000000</CycleDuration>
         <DebugClockkHz>4000</DebugClockkHz>
@@ -3018,7 +3004,7 @@
            <Endian>LE</Endian>
            <MCSync>true</MCSync>
            <StopCPUActivities>true</StopCPUActivities>
-           <UseSWBPs>true</UseSWBPs>
+           <UseSWBPs>false</UseSWBPs>
            <DebugEntry>
             <PresetAddr></PresetAddr>
             <PresetPCAfterStoppedInInit>NoPreset</PresetPCAfterStoppedInInit>
@@ -3153,7 +3139,7 @@
         <IPUseGlobalDiscoveryPort>0</IPUseGlobalDiscoveryPort>
         <Mode>3</Mode>
         <TCPPortNumber>5313</TCPPortNumber>
-        <USBDeviceName></USBDeviceName>
+        <USBDeviceName>iC5700 (SN 142647)</USBDeviceName>
        </Communication>
        <IFX_DAS>
         <Config>
