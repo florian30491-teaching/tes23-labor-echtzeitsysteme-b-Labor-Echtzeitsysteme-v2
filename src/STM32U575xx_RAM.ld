@@ -38,8 +38,8 @@ ENTRY(Reset_Handler)
 /* Highest address of the user mode stack */
 _estack = ORIGIN(RAM) + LENGTH(RAM);	/* end of "RAM" Ram type memory */
 
-_Min_Heap_Size = 0x205;      /* required amount of heap  */
-_Min_Stack_Size = 0x405; /* required amount of stack */
+_Min_Heap_Size = 0x200;      /* required amount of heap  */
+_Min_Stack_Size = 0x400; /* required amount of stack */
 
 /* Memories definition */
 MEMORY
@@ -85,13 +85,15 @@ SECTIONS
     . = ALIGN(8);
   } >RAM
 
-  .ARM.extab   : { 
+  .ARM.extab (READONLY) : /* The READONLY keyword is only supported in GCC11 and later, remove it if using GCC10 or earlier. */
+  {
     . = ALIGN(8);
     *(.ARM.extab* .gnu.linkonce.armextab.*)
     . = ALIGN(8);
   } >RAM
   
-  .ARM : {
+  .ARM (READONLY) : /* The READONLY keyword is only supported in GCC11 and later, remove it if using GCC10 or earlier. */
+  {
     . = ALIGN(8);
     __exidx_start = .;
     *(.ARM.exidx*)
@@ -99,7 +101,7 @@ SECTIONS
     . = ALIGN(8);
   } >RAM
 
-  .preinit_array     :
+  .preinit_array (READONLY) : /* The READONLY keyword is only supported in GCC11 and later, remove it if using GCC10 or earlier. */
   {
     . = ALIGN(8);
     PROVIDE_HIDDEN (__preinit_array_start = .);
@@ -108,7 +110,7 @@ SECTIONS
     . = ALIGN(8);
   } >RAM
   
-  .init_array :
+  .init_array (READONLY) : /* The READONLY keyword is only supported in GCC11 and later, remove it if using GCC10 or earlier. */
   {
     . = ALIGN(8);
     PROVIDE_HIDDEN (__init_array_start = .);
@@ -118,7 +120,7 @@ SECTIONS
     . = ALIGN(8);
   } >RAM
   
-  .fini_array :
+  .fini_array (READONLY) : /* The READONLY keyword is only supported in GCC11 and later, remove it if using GCC10 or earlier. */
   {
     . = ALIGN(8);
     PROVIDE_HIDDEN (__fini_array_start = .);

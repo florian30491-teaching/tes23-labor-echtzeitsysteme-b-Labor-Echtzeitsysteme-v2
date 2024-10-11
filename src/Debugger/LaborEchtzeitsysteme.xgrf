@@ -9,6 +9,66 @@
      </REG_HEADER>
      <REG_ROOT>
       <RegVer>1297137668</RegVer>
+      <EditorPersist>
+       <EditorPersist>
+        <__.0>
+         <BookmarkList></BookmarkList>
+         <CaretPos>2663</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>C:\Users\gv9408\Downloads\CubeMcuRawText\CubeMcuRaw\Core\Src\stm32u5xx_it.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>64</ScrollPos>
+        </__.0>
+        <__.1>
+         <BookmarkList></BookmarkList>
+         <CaretPos>3245</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>C:\GitHub2\Labor-Echtzeitsysteme\src\Core\Src\main.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>123</ScrollPos>
+        </__.1>
+        <__.2>
+         <BookmarkList></BookmarkList>
+         <CaretPos>986</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>C:\GitHub2\Labor-Echtzeitsysteme\src\Core\Src\sdmmc.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>25</ScrollPos>
+        </__.2>
+        <__.3>
+         <BookmarkList></BookmarkList>
+         <CaretPos>2968</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>C:\GitHub2\Labor-Echtzeitsysteme\src\startup_stm32u575xx.S</FileName>
+         <FileType>0</FileType>
+         <ScrollPos>73</ScrollPos>
+        </__.3>
+        <__.4>
+         <BookmarkList></BookmarkList>
+         <CaretPos>2696</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>C:\Users\gv9408\Downloads\TestCube2\TestCubemx\Core\Src\stm32u5xx_it.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>70</ScrollPos>
+        </__.4>
+        <__.5>
+         <BookmarkList></BookmarkList>
+         <CaretPos>109721</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>C:\Users\gv9408\Downloads\TestCube2\TestCubemx\Drivers\STM32U5xx_HAL_Driver\Src\stm32u5xx_hal_sd.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>3293</ScrollPos>
+        </__.5>
+        <__.6>
+         <BookmarkList></BookmarkList>
+         <CaretPos>8565</CaretPos>
+         <Encoding>1</Encoding>
+         <FileName>C:\Users\gv9408\Downloads\CubeMcuRawText\CubeMcuRaw\Core\Src\system_stm32u5xx.c</FileName>
+         <FileType>1</FileType>
+         <ScrollPos>179</ScrollPos>
+        </__.6>
+       </EditorPersist>
+      </EditorPersist>
      </REG_ROOT>
     </EditorOptions>
    </Editor>
@@ -60,19 +120,121 @@
         <ViewId>0</ViewId>
         <ViewType>Symbols</ViewType>
        </__.0>
+       <__.10>
+        <ViewId>10</ViewId>
+        <ViewType>Document</ViewType>
+       </__.10>
+       <__.11>
+        <ViewId>11</ViewId>
+        <ViewType>Document</ViewType>
+       </__.11>
+       <__.12>
+        <ViewId>12</ViewId>
+        <ViewType>Document</ViewType>
+       </__.12>
        <__.1>
-        <ViewId>1</ViewId>
-        <ViewType>Output_Progress</ViewType>
-       </__.1>
-       <__.2>
         <ViewId>2</ViewId>
         <ViewType>Locals</ViewType>
-       </__.2>
-       <__.3>
+       </__.1>
+       <__.2>
         <ViewId>3</ViewId>
         <ViewType>CustomWatch</ViewType>
+       </__.2>
+       <__.3>
+        <ViewId>1</ViewId>
+        <ViewType>Output_Progress</ViewType>
        </__.3>
+       <__.4>
+        <ViewId>4</ViewId>
+        <ViewType>Disassembly</ViewType>
+       </__.4>
+       <__.5>
+        <ViewId>5</ViewId>
+        <ViewType>Document</ViewType>
+       </__.5>
+       <__.6>
+        <ViewId>6</ViewId>
+        <ViewType>Document</ViewType>
+       </__.6>
+       <__.7>
+        <ViewId>7</ViewId>
+        <ViewType>Callstack</ViewType>
+       </__.7>
+       <__.8>
+        <ViewId>8</ViewId>
+        <ViewType>Document</ViewType>
+       </__.8>
+       <__.9>
+        <ViewId>9</ViewId>
+        <ViewType>Document</ViewType>
+       </__.9>
       </AllViewBaseData>
+      <DissasemblyViews>
+       <__.0>
+        <ViewId>4</ViewId>
+        <ViewType>Disassembly</ViewType>
+        <ColumnData>
+         <__.0>
+          <Pos>0</Pos>
+          <Visible>true</Visible>
+          <Width>100</Width>
+         </__.0>
+         <__.1>
+          <Pos>0</Pos>
+          <Visible>true</Visible>
+          <Width>80</Width>
+         </__.1>
+         <__.2>
+          <Pos>0</Pos>
+          <Visible>true</Visible>
+          <Width>400</Width>
+         </__.2>
+        </ColumnData>
+       </__.0>
+      </DissasemblyViews>
+      <DocumentViews>
+       <__.0>
+        <RelativePath>..\Core\Src\main.c</RelativePath>
+        <ViewId>5</ViewId>
+        <ViewType>Document</ViewType>
+       </__.0>
+       <__.1>
+        <RelativePath>..\startup_stm32u575xx.S</RelativePath>
+        <ViewId>6</ViewId>
+        <ViewType>Document</ViewType>
+       </__.1>
+       <__.2>
+        <RelativePath>..\Core\Src\sdmmc.c</RelativePath>
+        <ViewId>8</ViewId>
+        <ViewType>Document</ViewType>
+       </__.2>
+       <__.3>
+        <RelativePath>C:\Users\gv9408\Downloads\TestCube2\TestCubemx\Drivers\STM32U5xx_HAL_Driver\Src\stm32u5xx_hal_sd.c</RelativePath>
+        <ViewId>9</ViewId>
+        <ViewType>Document</ViewType>
+       </__.3>
+       <__.4>
+        <RelativePath>C:\Users\gv9408\Downloads\TestCube2\TestCubemx\Core\Src\stm32u5xx_it.c</RelativePath>
+        <ViewId>10</ViewId>
+        <ViewType>Document</ViewType>
+       </__.4>
+       <__.5>
+        <RelativePath>C:\Users\gv9408\Downloads\CubeMcuRawText\CubeMcuRaw\Core\Src\system_stm32u5xx.c</RelativePath>
+        <ViewId>11</ViewId>
+        <ViewType>Document</ViewType>
+       </__.5>
+       <__.6>
+        <RelativePath>C:\Users\gv9408\Downloads\CubeMcuRawText\CubeMcuRaw\Core\Src\stm32u5xx_it.c</RelativePath>
+        <ViewId>12</ViewId>
+        <ViewType>Document</ViewType>
+       </__.6>
+      </DocumentViews>
+      <OtherViews>
+       <__.0>
+        <ViewId>7</ViewId>
+        <ViewType>Callstack</ViewType>
+       </__.0>
+      </OtherViews>
       <OutputViews>
        <__.0>
         <ViewId>1</ViewId>
@@ -206,11 +368,11 @@
       </WatchViews>
      </ViewData>
      <ViewLayout>
-      <PrimaryDocumentPaneId>5</PrimaryDocumentPaneId>
+      <PrimaryDocumentPaneId>4</PrimaryDocumentPaneId>
       <Frames>
        <__.0>
-        <FocusedViewId>3</FocusedViewId>
-        <FrameState>9</FrameState>
+        <FocusedViewId>12</FocusedViewId>
+        <FrameState>3</FrameState>
         <IsPrimary>true</IsPrimary>
         <Bounds>
          <Bottom>1083</Bottom>
@@ -224,82 +386,198 @@
          <IsDocumentPane>false</IsDocumentPane>
          <IsPinned>false</IsPinned>
          <IsTabbed>false</IsTabbed>
-         <Orientation>Vertical</Orientation>
+         <Orientation>Horizontal</Orientation>
          <TopTabViewId>-1</TopTabViewId>
          <ViewId>-1</ViewId>
          <Children>
           <__.0>
            <DockType>None</DockType>
-           <Extent>0.682002</Extent>
+           <Extent>0.75</Extent>
            <IsDocumentPane>false</IsDocumentPane>
            <IsPinned>false</IsPinned>
            <IsTabbed>false</IsTabbed>
-           <Orientation>Horizontal</Orientation>
+           <Orientation>Vertical</Orientation>
            <TopTabViewId>-1</TopTabViewId>
            <ViewId>-1</ViewId>
            <Children>
             <__.0>
-             <DockType>View</DockType>
-             <Extent>0.25</Extent>
+             <DockType>None</DockType>
+             <Extent>0.682002</Extent>
              <IsDocumentPane>false</IsDocumentPane>
              <IsPinned>false</IsPinned>
              <IsTabbed>false</IsTabbed>
-             <Orientation>None</Orientation>
+             <Orientation>Horizontal</Orientation>
              <TopTabViewId>-1</TopTabViewId>
-             <ViewId>0</ViewId>
+             <ViewId>-1</ViewId>
+             <Children>
+              <__.0>
+               <DockType>View</DockType>
+               <Extent>0.25</Extent>
+               <IsDocumentPane>false</IsDocumentPane>
+               <IsPinned>false</IsPinned>
+               <IsTabbed>false</IsTabbed>
+               <Orientation>None</Orientation>
+               <TopTabViewId>-1</TopTabViewId>
+               <ViewId>0</ViewId>
+              </__.0>
+              <__.1>
+               <DockType>None</DockType>
+               <Extent>0.75</Extent>
+               <IsDocumentPane>true</IsDocumentPane>
+               <IsPinned>false</IsPinned>
+               <IsTabbed>true</IsTabbed>
+               <Orientation>None</Orientation>
+               <TopTabViewId>12</TopTabViewId>
+               <ViewId>-1</ViewId>
+               <Children>
+                <__.0>
+                 <DockType>Document</DockType>
+                 <Extent>1</Extent>
+                 <IsDocumentPane>false</IsDocumentPane>
+                 <IsPinned>false</IsPinned>
+                 <IsTabbed>false</IsTabbed>
+                 <Orientation>None</Orientation>
+                 <TopTabViewId>-1</TopTabViewId>
+                 <ViewId>5</ViewId>
+                </__.0>
+                <__.1>
+                 <DockType>Document</DockType>
+                 <Extent>1</Extent>
+                 <IsDocumentPane>false</IsDocumentPane>
+                 <IsPinned>false</IsPinned>
+                 <IsTabbed>false</IsTabbed>
+                 <Orientation>None</Orientation>
+                 <TopTabViewId>-1</TopTabViewId>
+                 <ViewId>6</ViewId>
+                </__.1>
+                <__.2>
+                 <DockType>Document</DockType>
+                 <Extent>1</Extent>
+                 <IsDocumentPane>false</IsDocumentPane>
+                 <IsPinned>false</IsPinned>
+                 <IsTabbed>false</IsTabbed>
+                 <Orientation>None</Orientation>
+                 <TopTabViewId>-1</TopTabViewId>
+                 <ViewId>8</ViewId>
+                </__.2>
+                <__.3>
+                 <DockType>Document</DockType>
+                 <Extent>1</Extent>
+                 <IsDocumentPane>false</IsDocumentPane>
+                 <IsPinned>false</IsPinned>
+                 <IsTabbed>false</IsTabbed>
+                 <Orientation>None</Orientation>
+                 <TopTabViewId>-1</TopTabViewId>
+                 <ViewId>9</ViewId>
+                </__.3>
+                <__.4>
+                 <DockType>Document</DockType>
+                 <Extent>1</Extent>
+                 <IsDocumentPane>false</IsDocumentPane>
+                 <IsPinned>false</IsPinned>
+                 <IsTabbed>false</IsTabbed>
+                 <Orientation>None</Orientation>
+                 <TopTabViewId>-1</TopTabViewId>
+                 <ViewId>10</ViewId>
+                </__.4>
+                <__.5>
+                 <DockType>Document</DockType>
+                 <Extent>1</Extent>
+                 <IsDocumentPane>false</IsDocumentPane>
+                 <IsPinned>false</IsPinned>
+                 <IsTabbed>false</IsTabbed>
+                 <Orientation>None</Orientation>
+                 <TopTabViewId>-1</TopTabViewId>
+                 <ViewId>11</ViewId>
+                </__.5>
+                <__.6>
+                 <DockType>Document</DockType>
+                 <Extent>1</Extent>
+                 <IsDocumentPane>false</IsDocumentPane>
+                 <IsPinned>false</IsPinned>
+                 <IsTabbed>false</IsTabbed>
+                 <Orientation>None</Orientation>
+                 <TopTabViewId>-1</TopTabViewId>
+                 <ViewId>12</ViewId>
+                </__.6>
+               </Children>
+              </__.1>
+             </Children>
             </__.0>
             <__.1>
              <DockType>None</DockType>
-             <Extent>0.75</Extent>
-             <IsDocumentPane>true</IsDocumentPane>
+             <Extent>0.317998</Extent>
+             <IsDocumentPane>false</IsDocumentPane>
              <IsPinned>false</IsPinned>
-             <IsTabbed>true</IsTabbed>
-             <Orientation>None</Orientation>
+             <IsTabbed>false</IsTabbed>
+             <Orientation>Horizontal</Orientation>
              <TopTabViewId>-1</TopTabViewId>
              <ViewId>-1</ViewId>
+             <Children>
+              <__.0>
+               <DockType>View</DockType>
+               <Extent>0.4</Extent>
+               <IsDocumentPane>false</IsDocumentPane>
+               <IsPinned>false</IsPinned>
+               <IsTabbed>false</IsTabbed>
+               <Orientation>Vertical</Orientation>
+               <TopTabViewId>-1</TopTabViewId>
+               <ViewId>1</ViewId>
+              </__.0>
+              <__.1>
+               <DockType>View</DockType>
+               <Extent>0.3</Extent>
+               <IsDocumentPane>false</IsDocumentPane>
+               <IsPinned>false</IsPinned>
+               <IsTabbed>false</IsTabbed>
+               <Orientation>None</Orientation>
+               <TopTabViewId>-1</TopTabViewId>
+               <ViewId>2</ViewId>
+              </__.1>
+              <__.2>
+               <DockType>View</DockType>
+               <Extent>0.3</Extent>
+               <IsDocumentPane>false</IsDocumentPane>
+               <IsPinned>false</IsPinned>
+               <IsTabbed>false</IsTabbed>
+               <Orientation>Vertical</Orientation>
+               <TopTabViewId>-1</TopTabViewId>
+               <ViewId>3</ViewId>
+              </__.2>
+             </Children>
             </__.1>
            </Children>
           </__.0>
           <__.1>
            <DockType>None</DockType>
-           <Extent>0.317998</Extent>
+           <Extent>0.25</Extent>
            <IsDocumentPane>false</IsDocumentPane>
            <IsPinned>false</IsPinned>
-           <IsTabbed>false</IsTabbed>
-           <Orientation>Horizontal</Orientation>
-           <TopTabViewId>-1</TopTabViewId>
+           <IsTabbed>true</IsTabbed>
+           <Orientation>None</Orientation>
+           <TopTabViewId>4</TopTabViewId>
            <ViewId>-1</ViewId>
            <Children>
             <__.0>
              <DockType>View</DockType>
-             <Extent>0.4</Extent>
-             <IsDocumentPane>false</IsDocumentPane>
-             <IsPinned>false</IsPinned>
-             <IsTabbed>false</IsTabbed>
-             <Orientation>Vertical</Orientation>
-             <TopTabViewId>-1</TopTabViewId>
-             <ViewId>1</ViewId>
-            </__.0>
-            <__.1>
-             <DockType>View</DockType>
-             <Extent>0.3</Extent>
+             <Extent>1</Extent>
              <IsDocumentPane>false</IsDocumentPane>
              <IsPinned>false</IsPinned>
              <IsTabbed>false</IsTabbed>
              <Orientation>None</Orientation>
              <TopTabViewId>-1</TopTabViewId>
-             <ViewId>2</ViewId>
-            </__.1>
-            <__.2>
+             <ViewId>4</ViewId>
+            </__.0>
+            <__.1>
              <DockType>View</DockType>
-             <Extent>0.3</Extent>
+             <Extent>1</Extent>
              <IsDocumentPane>false</IsDocumentPane>
              <IsPinned>false</IsPinned>
              <IsTabbed>false</IsTabbed>
-             <Orientation>Vertical</Orientation>
+             <Orientation>None</Orientation>
              <TopTabViewId>-1</TopTabViewId>
-             <ViewId>3</ViewId>
-            </__.2>
+             <ViewId>7</ViewId>
+            </__.1>
            </Children>
           </__.1>
          </Children>
@@ -321,10 +599,6 @@
       </FindInFilesDialogData>
      </GlobalData>
      <History>
-      <ComboBox>
-       <ComboBoxes>
-       </ComboBoxes>
-      </ComboBox>
      </History>
      <Options>
       <CallstackWindow>

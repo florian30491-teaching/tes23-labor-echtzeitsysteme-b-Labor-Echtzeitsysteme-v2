@@ -146,7 +146,7 @@
            <Area></Area>
            <Load>true</Load>
            <OverrideMemArea>false</OverrideMemArea>
-           <Path>..\cmake-build-debug\build\LaborEchtzeitsysteme.elf</Path>
+           <Path>C:\Users\gv9408\Downloads\CubeMcuRawText\CubeMcuRaw\Debug\CubeMcuRaw.elf</Path>
            <UseDefaultMSID>true</UseDefaultMSID>
            <MSID>
             <App>0x0</App>
@@ -243,7 +243,7 @@
            <Area></Area>
            <Load>true</Load>
            <OverrideMemArea>false</OverrideMemArea>
-           <Path>..\cmake-build-debug\build\LaborEchtzeitsysteme.elf</Path>
+           <Path>C:\Users\gv9408\Downloads\CubeMcuRawText\CubeMcuRaw\Debug\CubeMcuRaw.elf</Path>
            <UseDefaultMSID>true</UseDefaultMSID>
            <MSID>
             <App>0x0</App>
@@ -581,6 +581,20 @@
     </Mode>
     <Op_System>
      <Debug>
+      <BPs>
+       <__.0>
+        <ActionEnabled>false</ActionEnabled>
+        <ActionParams></ActionParams>
+        <ActionScript></ActionScript>
+        <ActionShow>false</ActionShow>
+        <Condition>false</Condition>
+        <Count>0</Count>
+        <Enabled>true</Enabled>
+        <Expression></Expression>
+        <Location>&quot;..\Core\Src\main.c&quot;::145</Location>
+        <ProcessFilter></ProcessFilter>
+       </__.0>
+      </BPs>
       <Processes>
        <__.0>
         <URL>App/CORE_CM33</URL>
@@ -2240,7 +2254,7 @@
        </FixedFNode.1>
       </FNet>
       <Op>
-       <TraceCalibrationPerformed>false</TraceCalibrationPerformed>
+       <TraceCalibrationPerformed>true</TraceCalibrationPerformed>
       </Op>
       <Options>
        <EVE>
@@ -2761,8 +2775,8 @@
         <Breakpoints>HW</Breakpoints>
         <CacheSWBPs>false</CacheSWBPs>
         <CalibrateClockVref>32</CalibrateClockVref>
-        <CalibratePhase>13</CalibratePhase>
-        <CalibrateVref>116</CalibrateVref>
+        <CalibratePhase>0</CalibratePhase>
+        <CalibrateVref>32</CalibrateVref>
         <ClockkHz>1000</ClockkHz>
         <CycleDuration>1e-09</CycleDuration>
         <DebugChannel>JTAG</DebugChannel>
@@ -2834,8 +2848,8 @@
         <CacheDL>0</CacheDL>
         <CacheSWBPs>0</CacheSWBPs>
         <CalibrateClockVref>32</CalibrateClockVref>
-        <CalibratePhase>13</CalibratePhase>
-        <CalibrateVref>116</CalibrateVref>
+        <CalibratePhase>0</CalibratePhase>
+        <CalibrateVref>32</CalibrateVref>
         <ClockkHz>1000</ClockkHz>
         <CycleDuration type="D">0.0000000010000000</CycleDuration>
         <DebugClockkHz>4000</DebugClockkHz>
@@ -3004,7 +3018,7 @@
            <Endian>LE</Endian>
            <MCSync>true</MCSync>
            <StopCPUActivities>true</StopCPUActivities>
-           <UseSWBPs>false</UseSWBPs>
+           <UseSWBPs>true</UseSWBPs>
            <DebugEntry>
             <PresetAddr></PresetAddr>
             <PresetPCAfterStoppedInInit>NoPreset</PresetPCAfterStoppedInInit>

@@ -1,0 +1,192 @@
+CALIBRATING	
+Done.EMULATION	Probe - System; Root
+EMULATION	Initial debug frequency set
+EMULATION	Asserting reset
+
+****************************************
+************* CORE INFO ****************
+**  (CORE INDEX:  0:CORE_CM33)
+**
+**  CPUID:        0x410FD214
+**  PARTNO:       0xD21
+**  VARIANT:      0x0
+**  REVISION:     0x4
+**
+**  Detected:     Cortex-M33 r0p4
+****************************************
+
+EMULATION	Finished connecting to SoC
+EMULATION	Releasing reset
+EMULATION	Initialization script (if any) done
+EMULATION	Final debug frequency set
+EMULATION	SoC ID match OK
+EMULATION	STARTED
+EMULATION	END - Without cleanup
+LOADING	C:\GitHub2\Labor-Echtzeitsysteme\src\build\cmake-task1-build-debug\build\LaborEchtzeitsysteme.elf
+EMULATION	Probe - System; Root
+EMULATION	Initial debug frequency set
+EMULATION	Asserting reset
+EMULATION	Finished connecting to SoC
+EMULATION	Releasing reset
+EMULATION	Initialization script (if any) done
+No RAM which needs initialization found
+EMULATION	Final debug frequency set
+EMULATION	SoC ID match OK
+EMULATION	STARTED
+PROGRAMMING 	43644 bytes
+PROGRAMMING	ST STM32U5x (2048 kB Non-secure) (6 sectors)
+EMULATION	END - Without cleanup
+EMULATION	Initial debug frequency set
+EMULATION	Asserting reset
+EMULATION	Finished connecting to SoC
+EMULATION	Releasing reset
+EMULATION	Initialization script (if any) done
+EMULATION	Final debug frequency set
+EMULATION	SoC ID match OK
+EMULATION	STARTED
+EMULATION	END - Without cleanup
+LOADING	C:\GitHub2\Labor-Echtzeitsysteme\src\build\cmake-task1-build-debug\build\LaborEchtzeitsysteme.elf
+EMULATION	Probe - System; Root
+EMULATION	Initial debug frequency set
+EMULATION	Asserting reset
+EMULATION	Finished connecting to SoC
+EMULATION	Releasing reset
+EMULATION	Initialization script (if any) done
+No RAM which needs initialization found
+EMULATION	Final debug frequency set
+EMULATION	SoC ID match OK
+EMULATION	STARTED
+PROGRAMMING 	43644 bytes
+PROGRAMMING	ST STM32U5x (2048 kB Non-secure) (6 sectors)
+EMULATION	END - Without cleanup
+EMULATION	Initial debug frequency set
+EMULATION	Asserting reset
+EMULATION	Finished connecting to SoC
+EMULATION	Releasing reset
+EMULATION	Initialization script (if any) done
+EMULATION	Final debug frequency set
+EMULATION	SoC ID match OK
+EMULATION	STARTED
+EMULATION	END - Without cleanup
+LOADING	C:\GitHub2\Labor-Echtzeitsysteme\src\build\cmake-task1-build-debug\build\LaborEchtzeitsysteme.elf
+EMULATION	Probe - System; Root
+EMULATION	Initial debug frequency set
+EMULATION	Asserting reset
+EMULATION	Finished connecting to SoC
+EMULATION	Releasing reset
+EMULATION	Initialization script (if any) done
+No RAM which needs initialization found
+EMULATION	Final debug frequency set
+EMULATION	SoC ID match OK
+EMULATION	STARTED
+PROGRAMMING 	43644 bytes
+PROGRAMMING	ST STM32U5x (2048 kB Non-secure) (6 sectors)
+EMULATION	END - Executing cleanup
+LOADING	C:\GitHub2\Labor-Echtzeitsysteme\src\build\cmake-task1-build-debug\build\LaborEchtzeitsysteme.elf
+EMULATION	Probe - System; Root
+EMULATION	Initial debug frequency set
+EMULATION	Asserting reset
+EMULATION	Finished connecting to SoC
+EMULATION	Releasing reset
+EMULATION	Initialization script (if any) done
+No RAM which needs initialization found
+EMULATION	Final debug frequency set
+EMULATION	SoC ID match OK
+EMULATION	STARTED
+PROGRAMMING 	43644 bytes
+PROGRAMMING	ST STM32U5x (2048 kB Non-secure) (6 sectors)
+EMULATION	END - Without cleanup
+LOADING	C:\GitHub2\Labor-Echtzeitsysteme\src\build\cmake-task1-build-debug\build\LaborEchtzeitsysteme.elf
+EMULATION	Probe - System; Root
+EMULATION	Initial debug frequency set
+EMULATION	Asserting reset
+EMULATION	Finished connecting to SoC
+EMULATION	Releasing reset
+EMULATION	Initialization script (if any) done
+No RAM which needs initialization found
+EMULATION	Final debug frequency set
+EMULATION	SoC ID match OK
+EMULATION	STARTED
+PROGRAMMING 	43644 bytes
+PROGRAMMING	ST STM32U5x (2048 kB Non-secure) (6 sectors)
+EMULATION	END - Without cleanup
+CALIBRATING	
+Done.LOADING	C:\Users\gv9408\Downloads\TestCube2\TestCubemx\Debug\TestCubemx.elf
+EMULATION	Probe - System; Root
+EMULATION	Initial debug frequency set
+EMULATION	Asserting reset
+
+****************************************
+************* CORE INFO ****************
+**  (CORE INDEX:  0:CORE_CM33)
+**
+**  CPUID:        0x410FD214
+**  PARTNO:       0xD21
+**  VARIANT:      0x0
+**  REVISION:     0x4
+**
+**  Detected:     Cortex-M33 r0p4
+****************************************
+
+EMULATION	Finished connecting to SoC
+EMULATION	Releasing reset
+EMULATION	Initialization script (if any) done
+No RAM which needs initialization found
+EMULATION	Final debug frequency set
+EMULATION	SoC ID match OK
+EMULATION	STARTED
+PROGRAMMING 	55337 bytes
+PROGRAMMING	ST STM32U5x (2048 kB Non-secure) (7 sectors)
+EMULATION	END - Not attempting cleanup
+CALIBRATING	
+Done.LOADING	C:\Users\gv9408\Downloads\CubeMcuRawText\CubeMcuRaw\Debug\CubeMcuRaw.elf
+EMULATION	Probe - System; Root
+EMULATION	Initial debug frequency set
+Emulation start failed: Target Vref 0.00V out of required range (1.50V - 5.00V)
+LOADING	C:\Users\gv9408\Downloads\CubeMcuRawText\CubeMcuRaw\Debug\CubeMcuRaw.elf
+EMULATION	Probe - System; Root
+EMULATION	Initial debug frequency set
+EMULATION	Asserting reset
+
+****************************************
+************* CORE INFO ****************
+**  (CORE INDEX:  0:CORE_CM33)
+**
+**  CPUID:        0x410FD214
+**  PARTNO:       0xD21
+**  VARIANT:      0x0
+**  REVISION:     0x4
+**
+**  Detected:     Cortex-M33 r0p4
+****************************************
+
+EMULATION	Finished connecting to SoC
+EMULATION	Releasing reset
+EMULATION	Initialization script (if any) done
+No RAM which needs initialization found
+EMULATION	Final debug frequency set
+EMULATION	SoC ID match OK
+EMULATION	STARTED
+PROGRAMMING 	8381 bytes
+PROGRAMMING	ST STM32U5x (2048 kB Non-secure) (2 sectors)
+EMULATION	END - Not attempting cleanup
+No USB devices found
+CALIBRATING	
+Done.LOADING	C:\Users\gv9408\Downloads\CubeMcuRawText\CubeMcuRaw\Debug\CubeMcuRaw.elf
+EMULATION	Probe - System; Root
+EMULATION	Initial debug frequency set
+EMULATION	Asserting reset
+Emulation start failed: CallPoint C:\Users\gv9408\AppData\Local\Temp\iSYSTEM\JP30_SFR_9.21.268.1\ARM\STM32U5xx_ConnectToSoC.cpp returned ERROR
+Callpoint failed: C:\Users\gv9408\AppData\Local\Temp\iSYSTEM\JP30_SFR_9.21.268.1\ARM\STM32U5xx_ConnectToSoC.cpp
+Called from connectToSoC(Programming, 1, 1)
+Enable EVE log for additional information
+CALIBRATING	
+Done.LOADING	C:\Users\gv9408\Downloads\CubeMcuRawText\CubeMcuRaw\Debug\CubeMcuRaw.elf
+EMULATION	Probe - System; Root
+EMULATION	Initial debug frequency set
+EMULATION	Asserting reset
+Emulation start failed: CallPoint C:\Users\gv9408\AppData\Local\Temp\iSYSTEM\JP30_SFR_9.21.268.1\ARM\STM32U5xx_ConnectToSoC.cpp returned ERROR
+Callpoint failed: C:\Users\gv9408\AppData\Local\Temp\iSYSTEM\JP30_SFR_9.21.268.1\ARM\STM32U5xx_ConnectToSoC.cpp
+Called from connectToSoC(Programming, 1, 1)
+Enable EVE log for additional information
+EMULATION	END - Not attempting cleanup
