@@ -8,5 +8,6 @@
 #include "queue.h"
 #include "semphr.h"
 #include "gpio.h"
+#include "cmsis_os2.h"
 
 #endif //GENERAL_TASKS_INCLUDE_H

@@ -61,7 +61,7 @@
      </Floating>
     </Cfg_License>
     <Cfg_System>
-     <DebugModel>Basic</DebugModel>
+     <DebugModel>Full</DebugModel>
      <Debug>
       <Applications>
        <__.0>
@@ -77,7 +77,7 @@
          <IgnoreDLInfo>false</IgnoreDLInfo>
         </MemProp_ISA>
         <OS>
-         <Type>None</Type>
+         <Type>FreeRTOS</Type>
          <FreeRTOS>
           <ProfilerXMLPath></ProfilerXMLPath>
          </FreeRTOS>
@@ -146,7 +146,7 @@
            <Area></Area>
            <Load>true</Load>
            <OverrideMemArea>false</OverrideMemArea>
-           <Path>C:\GitHub2\Labor-Echtzeitsysteme\src\build\Task1_Debug\Labor-Echtzeitsysteme.elf</Path>
+           <Path>..\build\Task1_Debug\Labor-Echtzeitsysteme.elf</Path>
            <UseDefaultMSID>true</UseDefaultMSID>
            <MSID>
             <App>0x0</App>
@@ -243,7 +243,7 @@
            <Area></Area>
            <Load>true</Load>
            <OverrideMemArea>false</OverrideMemArea>
-           <Path>C:\GitHub2\Labor-Echtzeitsysteme\src\build\Task1_Debug\Labor-Echtzeitsysteme.elf</Path>
+           <Path>..\build\Task1_Debug\Labor-Echtzeitsysteme.elf</Path>
            <UseDefaultMSID>true</UseDefaultMSID>
            <MSID>
             <App>0x0</App>
@@ -460,7 +460,7 @@
         <DisplayCollapsedArrayStruct>true</DisplayCollapsedArrayStruct>
         <DisplayPointerMemArea>false</DisplayPointerMemArea>
         <EnumDisplay>Enum</EnumDisplay>
-        <Hex>true</Hex>
+        <Hex>false</Hex>
         <MaxParseUpload>256</MaxParseUpload>
         <QualifiedNames>Unique</QualifiedNames>
         <UseSpacers>false</UseSpacers>
@@ -2762,7 +2762,7 @@
         <CacheSWBPs>false</CacheSWBPs>
         <CalibrateClockVref>32</CalibrateClockVref>
         <CalibratePhase>4</CalibratePhase>
-        <CalibrateVref>52</CalibrateVref>
+        <CalibrateVref>46</CalibrateVref>
         <ClockkHz>1000</ClockkHz>
         <CycleDuration>1e-09</CycleDuration>
         <DebugChannel>JTAG</DebugChannel>
@@ -2835,7 +2835,7 @@
         <CacheSWBPs>0</CacheSWBPs>
         <CalibrateClockVref>32</CalibrateClockVref>
         <CalibratePhase>4</CalibratePhase>
-        <CalibrateVref>52</CalibrateVref>
+        <CalibrateVref>46</CalibrateVref>
         <ClockkHz>1000</ClockkHz>
         <CycleDuration type="D">0.0000000010000000</CycleDuration>
         <DebugClockkHz>4000</DebugClockkHz>
@@ -3139,7 +3139,7 @@
         <IPUseGlobalDiscoveryPort>0</IPUseGlobalDiscoveryPort>
         <Mode>3</Mode>
         <TCPPortNumber>5313</TCPPortNumber>
-        <USBDeviceName>iC5700 (SN 142647)</USBDeviceName>
+        <USBDeviceName>iC5700 (SN 188363)</USBDeviceName>
        </Communication>
        <IFX_DAS>
         <Config>

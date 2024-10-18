@@ -1,0 +1,3 @@
+# Aufgabe 2 - Abgabe
+Details zur Abgabe der Aufgabe...
+
