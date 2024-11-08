@@ -19,27 +19,14 @@
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
 #include "cmsis_os2.h"
-#include "adc.h"
-#include "mdf.h"
-#include "dcmi.h"
+#include "dcache.h"
 #include "i2c.h"
 #include "icache.h"
 #include "memorymap.h"
-#include "octospi.h"
-#include "rtc.h"
-#include "sai.h"
-#include "sdmmc.h"
-#include "tamp.h"
-#include "tsc.h"
-#include "ucpd.h"
-#include "usart.h"
-#include "usb_otg.h"
 #include "gpio.h"
-#include "fmc.h"
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-#include "FreeRTOS.h"
 #include "tasks.h"
 /* USER CODE END Includes */
 
@@ -66,8 +53,6 @@
 
 /* Private function prototypes -----------------------------------------------*/
 void SystemClock_Config(void);
-void PeriphCommonClock_Config(void);
-static void SystemPower_Config(void);
 void MX_FREERTOS_Init(void);
 /* USER CODE BEGIN PFP */
 
@@ -84,6 +69,7 @@ void MX_FREERTOS_Init(void);
   */
 int main(void)
 {
+
   /* USER CODE BEGIN 1 */
 
   /* USER CODE END 1 */
@@ -100,59 +86,39 @@ int main(void)
   /* Configure the system clock */
   SystemClock_Config();
 
-/* Configure the peripherals common clocks */
-  PeriphCommonClock_Config();
-
-  /* Configure the System Power */
-  SystemPower_Config();
-
   /* USER CODE BEGIN SysInit */
 
   /* USER CODE END SysInit */
 
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
-  MX_ADC1_Init();
-  MX_ADF1_Init();
-  MX_DCMI_Init();
-  MX_FMC_Init();
-  MX_I2C2_Init();
-  MX_I2C3_Init();
+  MX_DCACHE1_Init();
   MX_ICACHE_Init();
-  MX_OCTOSPI1_Init();
-  MX_RTC_Init();
-  MX_SAI1_Init();
-  MX_SDMMC1_SD_Init();
-  MX_TAMP_RTC_Init();
-  MX_TSC_Init();
-  MX_UCPD1_Init();
-  MX_USART1_UART_Init();
-  MX_USART3_SMARTCARD_Init();
-  MX_USB_OTG_FS_PCD_Init();
+  MX_I2C2_Init();
   /* USER CODE BEGIN 2 */
-
   TaskSelection();
-
   /* USER CODE END 2 */
 
   /* Init scheduler */
   osKernelInitialize();
 
-  /* Call init function for freertos objects (in freertos.c) */
+  /* Call init function for freertos objects (in cmsis_os2.c) */
   MX_FREERTOS_Init();
 
   /* Start scheduler */
   osKernelStart();
 
   /* We should never get here as control is now taken by the scheduler */
+
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
-
   while (1)
   {
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
+    HAL_Delay(100);
+    HAL_GPIO_TogglePin(LD5_Green_GPIO_Port, LD5_Green_Pin);
   }
   /* USER CODE END 3 */
 }
@@ -175,25 +141,19 @@ void SystemClock_Config(void)
 
   /** Initializes the CPU, AHB and APB buses clocks
   */
-  RCC_OscInitStruct.OscillatorType = RCC_OSCILLATORTYPE_HSI48|RCC_OSCILLATORTYPE_HSI
-                              |RCC_OSCILLATORTYPE_LSI|RCC_OSCILLATORTYPE_MSI;
-  RCC_OscInitStruct.HSIState = RCC_HSI_ON;
-  RCC_OscInitStruct.HSI48State = RCC_HSI48_ON;
-  RCC_OscInitStruct.HSICalibrationValue = RCC_HSICALIBRATION_DEFAULT;
-  RCC_OscInitStruct.LSIState = RCC_LSI_ON;
+  RCC_OscInitStruct.OscillatorType = RCC_OSCILLATORTYPE_MSI;
   RCC_OscInitStruct.MSIState = RCC_MSI_ON;
   RCC_OscInitStruct.MSICalibrationValue = RCC_MSICALIBRATION_DEFAULT;
-  RCC_OscInitStruct.MSIClockRange = RCC_MSIRANGE_4;
-  RCC_OscInitStruct.LSIDiv = RCC_LSI_DIV1;
+  RCC_OscInitStruct.MSIClockRange = RCC_MSIRANGE_0;
   RCC_OscInitStruct.PLL.PLLState = RCC_PLL_ON;
   RCC_OscInitStruct.PLL.PLLSource = RCC_PLLSOURCE_MSI;
-  RCC_OscInitStruct.PLL.PLLMBOOST = RCC_PLLMBOOST_DIV1;
-  RCC_OscInitStruct.PLL.PLLM = 1;
-  RCC_OscInitStruct.PLL.PLLN = 80;
+  RCC_OscInitStruct.PLL.PLLMBOOST = RCC_PLLMBOOST_DIV4;
+  RCC_OscInitStruct.PLL.PLLM = 3;
+  RCC_OscInitStruct.PLL.PLLN = 10;
   RCC_OscInitStruct.PLL.PLLP = 2;
   RCC_OscInitStruct.PLL.PLLQ = 2;
-  RCC_OscInitStruct.PLL.PLLR = 2;
-  RCC_OscInitStruct.PLL.PLLRGE = RCC_PLLVCIRANGE_0;
+  RCC_OscInitStruct.PLL.PLLR = 1;
+  RCC_OscInitStruct.PLL.PLLRGE = RCC_PLLVCIRANGE_1;
   RCC_OscInitStruct.PLL.PLLFRACN = 0;
   if (HAL_RCC_OscConfig(&RCC_OscInitStruct) != HAL_OK)
   {
@@ -215,52 +175,6 @@ void SystemClock_Config(void)
   {
     Error_Handler();
   }
-}
-
-/**
-  * @brief Peripherals Common Clock Configuration
-  * @retval None
-  */
-void PeriphCommonClock_Config(void)
-{
-  RCC_PeriphCLKInitTypeDef PeriphClkInit = {0};
-
-  /** Initializes the common periph clock
-  */
-  PeriphClkInit.PeriphClockSelection = RCC_PERIPHCLK_SAI1;
-  PeriphClkInit.Sai1ClockSelection = RCC_SAI1CLKSOURCE_PLL2;
-  PeriphClkInit.PLL2.PLL2Source = RCC_PLLSOURCE_MSI;
-  PeriphClkInit.PLL2.PLL2M = 1;
-  PeriphClkInit.PLL2.PLL2N = 80;
-  PeriphClkInit.PLL2.PLL2P = 2;
-  PeriphClkInit.PLL2.PLL2Q = 2;
-  PeriphClkInit.PLL2.PLL2R = 2;
-  PeriphClkInit.PLL2.PLL2RGE = RCC_PLLVCIRANGE_0;
-  PeriphClkInit.PLL2.PLL2FRACN = 0;
-  PeriphClkInit.PLL2.PLL2ClockOut = RCC_PLL2_DIVP;
-  if (HAL_RCCEx_PeriphCLKConfig(&PeriphClkInit) != HAL_OK)
-  {
-    Error_Handler();
-  }
-}
-
-/**
-  * @brief Power Configuration
-  * @retval None
-  */
-static void SystemPower_Config(void)
-{
-  HAL_PWREx_EnableVddIO2();
-
-  /*
-   * Switch to SMPS regulator instead of LDO
-   */
-  if (HAL_PWREx_ConfigSupply(PWR_SMPS_SUPPLY) != HAL_OK)
-  {
-    Error_Handler();
-  }
-/* USER CODE BEGIN PWR */
-/* USER CODE END PWR */
 }
 
 /* USER CODE BEGIN 4 */

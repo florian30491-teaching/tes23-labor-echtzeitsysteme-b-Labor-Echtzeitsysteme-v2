@@ -1,0 +1,395 @@
+{
+    "version": 3,
+    "configurePresets": [
+        {
+            "name": "default",
+            "hidden": true,
+            "generator": "Ninja",
+            "binaryDir": "${sourceDir}/build/${presetName}",
+            "toolchainFile": "${sourceDir}/cmake/gcc-arm-none-eabi.cmake",
+            "cacheVariables": {}
+        },
+        {
+            "name": "Debug",
+            "inherits": "default",
+            "cacheVariables": {
+                "CMAKE_BUILD_TYPE": "Debug"
+            }
+        },
+        {
+            "name": "RelWithDebInfo",
+            "inherits": "default",
+            "cacheVariables": {
+                "CMAKE_BUILD_TYPE": "RelWithDebInfo"
+            }
+        },
+        {
+            "name": "Release",
+            "inherits": "default",
+            "cacheVariables": {
+                "CMAKE_BUILD_TYPE": "Release"
+            }
+        },
+        {
+            "name": "MinSizeRel",
+            "inherits": "default",
+            "cacheVariables": {
+                "CMAKE_BUILD_TYPE": "MinSizeRel"
+            }
+        },
+        {
+            "name": "Task1_Debug",
+            "inherits": "Debug",
+            "cacheVariables": {
+                "TASK_SELECTION": "1"
+            }
+        },
+        {
+            "name": "Task1_Release",
+            "inherits": "Release",
+            "cacheVariables": {
+                "TASK_SELECTION": "1"
+            }
+        },
+        {
+            "name": "Task1_RelWithDebInfo",
+            "inherits": "RelWithDebInfo",
+            "cacheVariables": {
+                "TASK_SELECTION": "1"
+            }
+        },
+        {
+            "name": "Task1_MinSizeRel",
+            "inherits": "MinSizeRel",
+            "cacheVariables": {
+                "TASK_SELECTION": "1"
+            }
+        },
+        {
+            "name": "Task2_Debug",
+            "inherits": "Debug",
+            "cacheVariables": {
+                "TASK_SELECTION": "2"
+            }
+        },
+        {
+            "name": "Task2_Release",
+            "inherits": "Release",
+            "cacheVariables": {
+                "TASK_SELECTION": "2"
+            }
+        },
+        {
+            "name": "Task2_RelWithDebInfo",
+            "inherits": "RelWithDebInfo",
+            "cacheVariables": {
+                "TASK_SELECTION": "2"
+            }
+        },
+        {
+            "name": "Task2_MinSizeRel",
+            "inherits": "MinSizeRel",
+            "cacheVariables": {
+                "TASK_SELECTION": "2"
+            }
+        },
+        {
+            "name": "Task3_Debug",
+            "inherits": "Debug",
+            "cacheVariables": {
+                "TASK_SELECTION": "3"
+            }
+        },
+        {
+            "name": "Task3_Release",
+            "inherits": "Release",
+            "cacheVariables": {
+                "TASK_SELECTION": "3"
+            }
+        },
+        {
+            "name": "Task3_RelWithDebInfo",
+            "inherits": "RelWithDebInfo",
+            "cacheVariables": {
+                "TASK_SELECTION": "3"
+            }
+        },
+        {
+            "name": "Task3_MinSizeRel",
+            "inherits": "MinSizeRel",
+            "cacheVariables": {
+                "TASK_SELECTION": "3"
+            }
+        },
+        {
+            "name": "Task4_Debug",
+            "inherits": "Debug",
+            "cacheVariables": {
+                "TASK_SELECTION": "4"
+            }
+        },
+        {
+            "name": "Task4_Release",
+            "inherits": "Release",
+            "cacheVariables": {
+                "TASK_SELECTION": "4"
+            }
+        },
+        {
+            "name": "Task4_RelWithDebInfo",
+            "inherits": "RelWithDebInfo",
+            "cacheVariables": {
+                "TASK_SELECTION": "4"
+            }
+        },
+        {
+            "name": "Task4_MinSizeRel",
+            "inherits": "MinSizeRel",
+            "cacheVariables": {
+                "TASK_SELECTION": "4"
+            }
+        },
+        {
+            "name": "Task5_Debug",
+            "inherits": "Debug",
+            "cacheVariables": {
+                "TASK_SELECTION": "5"
+            }
+        },
+        {
+            "name": "Task5_Release",
+            "inherits": "Release",
+            "cacheVariables": {
+                "TASK_SELECTION": "5"
+            }
+        },
+        {
+            "name": "Task5_RelWithDebInfo",
+            "inherits": "RelWithDebInfo",
+            "cacheVariables": {
+                "TASK_SELECTION": "5"
+            }
+        },
+        {
+            "name": "Task5_MinSizeRel",
+            "inherits": "MinSizeRel",
+            "cacheVariables": {
+                "TASK_SELECTION": "5"
+            }
+        },
+        {
+            "name": "Task6_Debug",
+            "inherits": "Debug",
+            "cacheVariables": {
+                "TASK_SELECTION": "6"
+            }
+        },
+        {
+            "name": "Task6_Release",
+            "inherits": "Release",
+            "cacheVariables": {
+                "TASK_SELECTION": "6"
+            }
+        },
+        {
+            "name": "Task6_RelWithDebInfo",
+            "inherits": "RelWithDebInfo",
+            "cacheVariables": {
+                "TASK_SELECTION": "6"
+            }
+        },
+        {
+            "name": "Task6_MinSizeRel",
+            "inherits": "MinSizeRel",
+            "cacheVariables": {
+                "TASK_SELECTION": "6"
+            }
+        },
+        {
+            "name": "Task7_Debug",
+            "inherits": "Debug",
+            "cacheVariables": {
+                "TASK_SELECTION": "7"
+            }
+        },
+        {
+            "name": "Task7_Release",
+            "inherits": "Release",
+            "cacheVariables": {
+                "TASK_SELECTION": "7"
+            }
+        },
+        {
+            "name": "Task7_RelWithDebInfo",
+            "inherits": "RelWithDebInfo",
+            "cacheVariables": {
+                "TASK_SELECTION": "7"
+            }
+        },
+        {
+            "name": "Task7_MinSizeRel",
+            "inherits": "MinSizeRel",
+            "cacheVariables": {
+                "TASK_SELECTION": "7"
+            }
+        },
+        {
+            "name": "Task8_Debug",
+            "inherits": "Debug",
+            "cacheVariables": {
+                "TASK_SELECTION": "8"
+            }
+        },
+        {
+            "name": "Task8_Release",
+            "inherits": "Release",
+            "cacheVariables": {
+                "TASK_SELECTION": "8"
+            }
+        },
+        {
+            "name": "Task8_RelWithDebInfo",
+            "inherits": "RelWithDebInfo",
+            "cacheVariables": {
+                "TASK_SELECTION": "8"
+            }
+        },
+        {
+            "name": "Task8_MinSizeRel",
+            "inherits": "MinSizeRel",
+            "cacheVariables": {
+                "TASK_SELECTION": "8"
+            }
+        }
+    ],
+    "buildPresets": [
+        {
+            "name": "Task1_Debug",
+            "configurePreset": "Task1_Debug"
+        },
+        {
+            "name": "Task1_Release",
+            "configurePreset": "Task1_Release"
+        },
+        {
+            "name": "Task1_RelWithDebInfo",
+            "configurePreset": "Task1_RelWithDebInfo"
+        },
+        {
+            "name": "Task1_MinSizeRel",
+            "configurePreset": "Task1_MinSizeRel"
+        },
+        {
+            "name": "Task2_Debug",
+            "configurePreset": "Task2_Debug"
+        },
+        {
+            "name": "Task2_Release",
+            "configurePreset": "Task2_Release"
+        },
+        {
+            "name": "Task2_RelWithDebInfo",
+            "configurePreset": "Task2_RelWithDebInfo"
+        },
+        {
+            "name": "Task2_MinSizeRel",
+            "configurePreset": "Task2_MinSizeRel"
+        },
+        {
+            "name": "Task3_Debug",
+            "configurePreset": "Task3_Debug"
+        },
+        {
+            "name": "Task3_Release",
+            "configurePreset": "Task3_Release"
+        },
+        {
+            "name": "Task3_RelWithDebInfo",
+            "configurePreset": "Task3_RelWithDebInfo"
+        },
+        {
+            "name": "Task3_MinSizeRel",
+            "configurePreset": "Task3_MinSizeRel"
+        },
+        {
+            "name": "Task4_Debug",
+            "configurePreset": "Task4_Debug"
+        },
+        {
+            "name": "Task4_Release",
+            "configurePreset": "Task4_Release"
+        },
+        {
+            "name": "Task4_RelWithDebInfo",
+            "configurePreset": "Task4_RelWithDebInfo"
+        },
+        {
+            "name": "Task4_MinSizeRel",
+            "configurePreset": "Task4_MinSizeRel"
+        },
+        {
+            "name": "Task5_Debug",
+            "configurePreset": "Task5_Debug"
+        },
+        {
+            "name": "Task5_Release",
+            "configurePreset": "Task5_Release"
+        },
+        {
+            "name": "Task5_RelWithDebInfo",
+            "configurePreset": "Task5_RelWithDebInfo"
+        },
+        {
+            "name": "Task5_MinSizeRel",
+            "configurePreset": "Task5_MinSizeRel"
+        },
+        {
+            "name": "Task6_Debug",
+            "configurePreset": "Task6_Debug"
+        },
+        {
+            "name": "Task6_Release",
+            "configurePreset": "Task6_Release"
+        },
+        {
+            "name": "Task6_RelWithDebInfo",
+            "configurePreset": "Task6_RelWithDebInfo"
+        },
+        {
+            "name": "Task6_MinSizeRel",
+            "configurePreset": "Task6_MinSizeRel"
+        },
+        {
+            "name": "Task7_Debug",
+            "configurePreset": "Task7_Debug"
+        },
+        {
+            "name": "Task7_Release",
+            "configurePreset": "Task7_Release"
+        },
+        {
+            "name": "Task7_RelWithDebInfo",
+            "configurePreset": "Task7_RelWithDebInfo"
+        },
+        {
+            "name": "Task7_MinSizeRel",
+            "configurePreset": "Task7_MinSizeRel"
+        },
+        {
+            "name": "Task8_Debug",
+            "configurePreset": "Task8_Debug"
+        },
+        {
+            "name": "Task8_Release",
+            "configurePreset": "Task8_Release"
+        },
+        {
+            "name": "Task8_RelWithDebInfo",
+            "configurePreset": "Task8_RelWithDebInfo"
+        },
+        {
+            "name": "Task8_MinSizeRel",
+            "configurePreset": "Task8_MinSizeRel"
+        }
+    ]
+}

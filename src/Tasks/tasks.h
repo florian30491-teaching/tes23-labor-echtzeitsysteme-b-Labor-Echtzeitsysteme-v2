@@ -1,13 +1,8 @@
-//
-// Created by GV9408 on 28.09.2024.
-//
 
 #ifndef LABORECHTZEITSYSTEME_TASKS_H
 #define LABORECHTZEITSYSTEME_TASKS_H
 
-
-
-
 void TaskSelection();
+void TasksFreeRtosIdleHook(void);
 
 #endif //LABORECHTZEITSYSTEME_TASKS_H

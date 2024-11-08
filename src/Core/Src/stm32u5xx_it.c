@@ -55,7 +55,6 @@
 /* USER CODE END 0 */
 
 /* External variables --------------------------------------------------------*/
-extern OSPI_HandleTypeDef hospi1;
 extern TIM_HandleTypeDef htim1;
 
 /* USER CODE BEGIN EV */
@@ -161,17 +160,31 @@ void DebugMon_Handler(void)
 /******************************************************************************/
 
 /**
-  * @brief This function handles EXTI Line15 interrupt.
+  * @brief This function handles EXTI Line5 interrupt.
   */
-void EXTI15_IRQHandler(void)
+void EXTI5_IRQHandler(void)
 {
-  /* USER CODE BEGIN EXTI15_IRQn 0 */
+  /* USER CODE BEGIN EXTI5_IRQn 0 */
 
-  /* USER CODE END EXTI15_IRQn 0 */
-  HAL_GPIO_EXTI_IRQHandler(GYRO_ACC_INT_Pin);
-  /* USER CODE BEGIN EXTI15_IRQn 1 */
+  /* USER CODE END EXTI5_IRQn 0 */
+  HAL_GPIO_EXTI_IRQHandler(MFX_IRQ_OUT_Pin);
+  /* USER CODE BEGIN EXTI5_IRQn 1 */
 
-  /* USER CODE END EXTI15_IRQn 1 */
+  /* USER CODE END EXTI5_IRQn 1 */
+}
+
+/**
+  * @brief This function handles EXTI Line13 interrupt.
+  */
+void EXTI13_IRQHandler(void)
+{
+  /* USER CODE BEGIN EXTI13_IRQn 0 */
+
+  /* USER CODE END EXTI13_IRQn 0 */
+  HAL_GPIO_EXTI_IRQHandler(USER_BUTTON_Pin);
+  /* USER CODE BEGIN EXTI13_IRQn 1 */
+
+  /* USER CODE END EXTI13_IRQn 1 */
 }
 
 /**
@@ -186,20 +199,6 @@ void TIM1_UP_IRQHandler(void)
   /* USER CODE BEGIN TIM1_UP_IRQn 1 */
 
   /* USER CODE END TIM1_UP_IRQn 1 */
-}
-
-/**
-  * @brief This function handles OCTOSPI1 global interrupt.
-  */
-void OCTOSPI1_IRQHandler(void)
-{
-  /* USER CODE BEGIN OCTOSPI1_IRQn 0 */
-
-  /* USER CODE END OCTOSPI1_IRQn 0 */
-  HAL_OSPI_IRQHandler(&hospi1);
-  /* USER CODE BEGIN OCTOSPI1_IRQn 1 */
-
-  /* USER CODE END OCTOSPI1_IRQn 1 */
 }
 
 /* USER CODE BEGIN 1 */

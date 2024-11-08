@@ -75,7 +75,7 @@
      </mbMake>
     </GlobalOptions>
     <Project.0>
-     <DefaultTargetName>LaborEchtzeitsysteme - Debug</DefaultTargetName>
+     <DefaultTargetName>stm32u5test - Debug</DefaultTargetName>
      <FilterName>No filter</FilterName>
      <ProjectName></ProjectName>
      <AdvancedLinkerOptions>
@@ -107,7 +107,7 @@
       <UseTargetDirectory2>False</UseTargetDirectory2>
      </TargetOptions>
      <Target.0>
-      <TargetName>LaborEchtzeitsysteme - Debug</TargetName>
+      <TargetName>stm32u5test - Debug</TargetName>
       <FileOptios>
        <AssemblerOptions>$(EDNAME)</AssemblerOptions>
        <CompilerOptions>$(EDNAME)</CompilerOptions>

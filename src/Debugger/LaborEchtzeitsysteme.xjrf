@@ -61,7 +61,7 @@
      </Floating>
     </Cfg_License>
     <Cfg_System>
-     <DebugModel>Basic</DebugModel>
+     <DebugModel>Full</DebugModel>
      <Debug>
       <Applications>
        <__.0>
@@ -77,7 +77,7 @@
          <IgnoreDLInfo>false</IgnoreDLInfo>
         </MemProp_ISA>
         <OS>
-         <Type>None</Type>
+         <Type>FreeRTOS</Type>
          <FreeRTOS>
           <ProfilerXMLPath></ProfilerXMLPath>
          </FreeRTOS>
@@ -146,7 +146,7 @@
            <Area></Area>
            <Load>true</Load>
            <OverrideMemArea>false</OverrideMemArea>
-           <Path>..\cmake-build-debug\build\LaborEchtzeitsysteme.elf</Path>
+           <Path>..\build\Task1_Debug\Labor-Echtzeitsysteme.elf</Path>
            <UseDefaultMSID>true</UseDefaultMSID>
            <MSID>
             <App>0x0</App>
@@ -233,7 +233,7 @@
       <SoCs>
        <__.0>
         <Enabled>true</Enabled>
-        <ProbeURL></ProbeURL>
+        <ProbeURL>System</ProbeURL>
         <SFRName>STM32U575xI</SFRName>
         <UserName>MCU</UserName>
         <DLFs_Program>
@@ -243,7 +243,7 @@
            <Area></Area>
            <Load>true</Load>
            <OverrideMemArea>false</OverrideMemArea>
-           <Path>..\cmake-build-debug\build\LaborEchtzeitsysteme.elf</Path>
+           <Path>..\build\Task1_Debug\Labor-Echtzeitsysteme.elf</Path>
            <UseDefaultMSID>true</UseDefaultMSID>
            <MSID>
             <App>0x0</App>
@@ -460,7 +460,7 @@
         <DisplayCollapsedArrayStruct>true</DisplayCollapsedArrayStruct>
         <DisplayPointerMemArea>false</DisplayPointerMemArea>
         <EnumDisplay>Enum</EnumDisplay>
-        <Hex>true</Hex>
+        <Hex>false</Hex>
         <MaxParseUpload>256</MaxParseUpload>
         <QualifiedNames>Unique</QualifiedNames>
         <UseSpacers>false</UseSpacers>
@@ -638,7 +638,7 @@
     <RegVer>1297137668</RegVer>
     <Project_Local>
      <Project.0>
-      <DefaultTargetName>LaborEchtzeitsysteme - Debug</DefaultTargetName>
+      <DefaultTargetName>stm32u5test - Debug</DefaultTargetName>
      </Project.0>
     </Project_Local>
    </REG_ROOT>
@@ -2240,7 +2240,7 @@
        </FixedFNode.1>
       </FNet>
       <Op>
-       <TraceCalibrationPerformed>false</TraceCalibrationPerformed>
+       <TraceCalibrationPerformed>true</TraceCalibrationPerformed>
       </Op>
       <Options>
        <EVE>
@@ -2671,8 +2671,8 @@
          <Scripts></Scripts>
         </Trace_Done>
         <Trace_Init>
-         <Execute>Default</Execute>
-         <Scripts></Scripts>
+         <Execute>Custom</Execute>
+         <Scripts>$(SFR_FILE_DIR)/STM32U5xx_TraceInit.cpp(&quot;TraceData0=PORT_C9&quot;,&quot;TraceData1=PORT_C&quot;,&quot;TraceData3=PORT_C&quot;)</Scripts>
         </Trace_Init>
         <Trace_Init_BeforeRun>
          <Execute>Default</Execute>
@@ -2761,8 +2761,8 @@
         <Breakpoints>HW</Breakpoints>
         <CacheSWBPs>false</CacheSWBPs>
         <CalibrateClockVref>32</CalibrateClockVref>
-        <CalibratePhase>13</CalibratePhase>
-        <CalibrateVref>116</CalibrateVref>
+        <CalibratePhase>4</CalibratePhase>
+        <CalibrateVref>46</CalibrateVref>
         <ClockkHz>1000</ClockkHz>
         <CycleDuration>1e-09</CycleDuration>
         <DebugChannel>JTAG</DebugChannel>
@@ -2834,8 +2834,8 @@
         <CacheDL>0</CacheDL>
         <CacheSWBPs>0</CacheSWBPs>
         <CalibrateClockVref>32</CalibrateClockVref>
-        <CalibratePhase>13</CalibratePhase>
-        <CalibrateVref>116</CalibrateVref>
+        <CalibratePhase>4</CalibratePhase>
+        <CalibrateVref>46</CalibrateVref>
         <ClockkHz>1000</ClockkHz>
         <CycleDuration type="D">0.0000000010000000</CycleDuration>
         <DebugClockkHz>4000</DebugClockkHz>
@@ -2895,7 +2895,7 @@
        </ExtWDT>
        <Hardware>
         <CheckVref>true</CheckVref>
-        <DebugVccSource>Target</DebugVccSource>
+        <DebugVccSource>Variable</DebugVccSource>
         <DebugVccVoltage>3300</DebugVccVoltage>
         <WDTDrive>HighZ</WDTDrive>
        </Hardware>
@@ -3060,7 +3060,7 @@
        </MC>
        <Module>
         <CheckVref>1</CheckVref>
-        <DebugVccSource>0</DebugVccSource>
+        <DebugVccSource>1</DebugVccSource>
         <DebugVccVoltage>3300</DebugVccVoltage>
         <HotAttach>0</HotAttach>
        </Module>
@@ -3139,7 +3139,7 @@
         <IPUseGlobalDiscoveryPort>0</IPUseGlobalDiscoveryPort>
         <Mode>3</Mode>
         <TCPPortNumber>5313</TCPPortNumber>
-        <USBDeviceName></USBDeviceName>
+        <USBDeviceName>iC5700 (SN 188363)</USBDeviceName>
        </Communication>
        <IFX_DAS>
         <Config>
