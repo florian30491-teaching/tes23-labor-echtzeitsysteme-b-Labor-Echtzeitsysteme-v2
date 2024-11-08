@@ -28,11 +28,15 @@ target_sources(stm32cubemx INTERFACE
     ../../Core/Src/main.c
     ../../Core/Src/gpio.c
     ../../Core/Src/app_freertos.c
+    ../../Core/Src/dcache.c
+    ../../Core/Src/i2c.c
+    ../../Core/Src/icache.c
     ../../Core/Src/memorymap.c
     ../../Core/Src/stm32u5xx_it.c
     ../../Core/Src/stm32u5xx_hal_msp.c
     ../../Core/Src/stm32u5xx_hal_timebase_tim.c
     ../../Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_cortex.c
+    ../../Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_dcache.c
     ../../Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal.c
     ../../Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_i2c.c
     ../../Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_i2c_ex.c

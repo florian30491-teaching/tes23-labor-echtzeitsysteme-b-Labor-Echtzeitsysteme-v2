@@ -46,3 +46,8 @@ void TaskSelection(void)
 #error "No or invalid task selected! Please select a task by defining TASK_SELECTION to a value of TASK1 to TASK8."
 #endif
 }
+
+void TasksFreeRtosIdleHook(void)
+{
+
+}

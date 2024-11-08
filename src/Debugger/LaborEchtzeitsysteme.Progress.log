@@ -23,7 +23,7 @@ No RAM which needs initialization found
 EMULATION	Final debug frequency set
 EMULATION	SoC ID match OK
 EMULATION	STARTED
-PROGRAMMING 	21208 bytes
+PROGRAMMING 	21872 bytes
 PROGRAMMING	ST STM32U5x (2048 kB Non-secure) (3 sectors)
 EMULATION	END - Without cleanup
 EMULATION	Initial debug frequency set
@@ -35,8 +35,54 @@ EMULATION	Final debug frequency set
 EMULATION	SoC ID match OK
 EMULATION	STARTED
 EMULATION	END - Without cleanup
+LOADING	C:\GitHub2\Labor-Echtzeitsysteme-v2\src\build\Task1_Debug\Labor-Echtzeitsysteme.elf
+EMULATION	Probe - System; Root
+EMULATION	Initial debug frequency set
+EMULATION	Asserting reset
+EMULATION	Finished connecting to SoC
+EMULATION	Releasing reset
+EMULATION	Initialization script (if any) done
+No RAM which needs initialization found
+EMULATION	Final debug frequency set
+EMULATION	SoC ID match OK
+EMULATION	STARTED
+PROGRAMMING 	21936 bytes
+PROGRAMMING	ST STM32U5x (2048 kB Non-secure) (3 sectors)
+EMULATION	END - Without cleanup
+EMULATION	Initial debug frequency set
+EMULATION	Asserting reset
+EMULATION	Finished connecting to SoC
+EMULATION	Releasing reset
+EMULATION	Initialization script (if any) done
+EMULATION	Final debug frequency set
+EMULATION	SoC ID match OK
+EMULATION	STARTED
+EMULATION	END - Without cleanup
+LOADING	C:\GitHub2\Labor-Echtzeitsysteme-v2\src\build\Task1_Debug\Labor-Echtzeitsysteme.elf
+EMULATION	Probe - System; Root
+EMULATION	Initial debug frequency set
+EMULATION	Asserting reset
+EMULATION	Finished connecting to SoC
+EMULATION	Releasing reset
+EMULATION	Initialization script (if any) done
+No RAM which needs initialization found
+EMULATION	Final debug frequency set
+EMULATION	SoC ID match OK
+EMULATION	STARTED
+PROGRAMMING 	29184 bytes
+PROGRAMMING	ST STM32U5x (2048 kB Non-secure) (4 sectors)
+EMULATION	END - Without cleanup
+EMULATION	Initial debug frequency set
+EMULATION	Asserting reset
+EMULATION	Finished connecting to SoC
+EMULATION	Releasing reset
+EMULATION	Initialization script (if any) done
+EMULATION	Final debug frequency set
+EMULATION	SoC ID match OK
+EMULATION	STARTED
+EMULATION	END - Without cleanup
 CALIBRATING	
-Done.LOADING	C:\GitHub2\Labor-Echtzeitsysteme-v2\src\build\Task1_Debug\Labor-Echtzeitsysteme.elf
+Done.LOADING	C:\GitHub2\Labor-Echtzeitsysteme-v2\src\build\Task4_Debug\Labor-Echtzeitsysteme.elf
 EMULATION	Probe - System; Root
 EMULATION	Initial debug frequency set
 EMULATION	Asserting reset
@@ -60,8 +106,8 @@ No RAM which needs initialization found
 EMULATION	Final debug frequency set
 EMULATION	SoC ID match OK
 EMULATION	STARTED
-PROGRAMMING 	21208 bytes
-PROGRAMMING	ST STM32U5x (2048 kB Non-secure) (3 sectors)
+PROGRAMMING 	25928 bytes
+PROGRAMMING	ST STM32U5x (2048 kB Non-secure) (4 sectors)
 EMULATION	END - Without cleanup
 EMULATION	Initial debug frequency set
 EMULATION	Asserting reset
@@ -71,4 +117,136 @@ EMULATION	Initialization script (if any) done
 EMULATION	Final debug frequency set
 EMULATION	SoC ID match OK
 EMULATION	STARTED
-EMULATION	END - Not attempting cleanup
+EMULATION	END - Without cleanup
+LOADING	C:\GitHub2\Labor-Echtzeitsysteme-v2\src\build\Task4_Debug\Labor-Echtzeitsysteme.elf
+EMULATION	Probe - System; Root
+EMULATION	Initial debug frequency set
+EMULATION	Asserting reset
+EMULATION	Finished connecting to SoC
+EMULATION	Releasing reset
+EMULATION	Initialization script (if any) done
+No RAM which needs initialization found
+EMULATION	Final debug frequency set
+EMULATION	SoC ID match OK
+EMULATION	STARTED
+PROGRAMMING 	25928 bytes
+PROGRAMMING	ST STM32U5x (2048 kB Non-secure) (4 sectors)
+EMULATION	END - Without cleanup
+EMULATION	Initial debug frequency set
+EMULATION	Asserting reset
+EMULATION	Finished connecting to SoC
+EMULATION	Releasing reset
+EMULATION	Initialization script (if any) done
+EMULATION	Final debug frequency set
+EMULATION	SoC ID match OK
+EMULATION	STARTED
+EMULATION	END - Without cleanup
+LOADING	C:\GitHub2\Labor-Echtzeitsysteme-v2\src\build\Task4_Debug\Labor-Echtzeitsysteme.elf
+EMULATION	Probe - System; Root
+EMULATION	Initial debug frequency set
+EMULATION	Asserting reset
+EMULATION	Finished connecting to SoC
+EMULATION	Releasing reset
+EMULATION	Initialization script (if any) done
+No RAM which needs initialization found
+EMULATION	Final debug frequency set
+EMULATION	SoC ID match OK
+EMULATION	STARTED
+PROGRAMMING 	25960 bytes
+PROGRAMMING	ST STM32U5x (2048 kB Non-secure) (4 sectors)
+EMULATION	END - Without cleanup
+EMULATION	Initial debug frequency set
+EMULATION	Asserting reset
+EMULATION	Finished connecting to SoC
+EMULATION	Releasing reset
+EMULATION	Initialization script (if any) done
+EMULATION	Final debug frequency set
+EMULATION	SoC ID match OK
+EMULATION	STARTED
+EMULATION	END - Without cleanup
+LOADING	C:\GitHub2\Labor-Echtzeitsysteme-v2\src\build\Task4_Debug\Labor-Echtzeitsysteme.elf
+EMULATION	Probe - System; Root
+EMULATION	Initial debug frequency set
+EMULATION	Asserting reset
+EMULATION	Finished connecting to SoC
+EMULATION	Releasing reset
+EMULATION	Initialization script (if any) done
+No RAM which needs initialization found
+EMULATION	Final debug frequency set
+EMULATION	SoC ID match OK
+EMULATION	STARTED
+PROGRAMMING 	25928 bytes
+PROGRAMMING	ST STM32U5x (2048 kB Non-secure) (4 sectors)
+EMULATION	END - Without cleanup
+EMULATION	Initial debug frequency set
+EMULATION	Asserting reset
+EMULATION	Finished connecting to SoC
+EMULATION	Releasing reset
+EMULATION	Initialization script (if any) done
+EMULATION	Final debug frequency set
+EMULATION	SoC ID match OK
+EMULATION	STARTED
+EMULATION	END - Without cleanup
+EMULATION	Initial debug frequency set
+EMULATION	Asserting reset
+EMULATION	Finished connecting to SoC
+EMULATION	Releasing reset
+EMULATION	Initialization script (if any) done
+EMULATION	Final debug frequency set
+EMULATION	SoC ID match OK
+EMULATION	STARTED
+EMULATION	END - Without cleanup
+EMULATION	Initial debug frequency set
+EMULATION	Asserting reset
+EMULATION	Finished connecting to SoC
+EMULATION	Releasing reset
+EMULATION	Initialization script (if any) done
+EMULATION	Final debug frequency set
+EMULATION	SoC ID match OK
+EMULATION	STARTED
+EMULATION	END - Without cleanup
+LOADING	C:\GitHub2\Labor-Echtzeitsysteme-v2\src\build\Task4_Debug\Labor-Echtzeitsysteme.elf
+EMULATION	Probe - System; Root
+EMULATION	Initial debug frequency set
+EMULATION	Asserting reset
+EMULATION	Finished connecting to SoC
+EMULATION	Releasing reset
+EMULATION	Initialization script (if any) done
+No RAM which needs initialization found
+EMULATION	Final debug frequency set
+EMULATION	SoC ID match OK
+EMULATION	STARTED
+PROGRAMMING 	26152 bytes
+PROGRAMMING	ST STM32U5x (2048 kB Non-secure) (4 sectors)
+EMULATION	END - Without cleanup
+EMULATION	Initial debug frequency set
+EMULATION	Asserting reset
+EMULATION	Finished connecting to SoC
+EMULATION	Releasing reset
+EMULATION	Initialization script (if any) done
+EMULATION	Final debug frequency set
+EMULATION	SoC ID match OK
+EMULATION	STARTED
+EMULATION	END - Without cleanup
+LOADING	C:\GitHub2\Labor-Echtzeitsysteme-v2\src\build\Task4_Debug\Labor-Echtzeitsysteme.elf
+EMULATION	Probe - System; Root
+EMULATION	Initial debug frequency set
+EMULATION	Asserting reset
+EMULATION	Finished connecting to SoC
+EMULATION	Releasing reset
+EMULATION	Initialization script (if any) done
+No RAM which needs initialization found
+EMULATION	Final debug frequency set
+EMULATION	SoC ID match OK
+EMULATION	STARTED
+PROGRAMMING 	26184 bytes
+PROGRAMMING	ST STM32U5x (2048 kB Non-secure) (4 sectors)
+EMULATION	END - Without cleanup
+EMULATION	Initial debug frequency set
+EMULATION	Asserting reset
+EMULATION	Finished connecting to SoC
+EMULATION	Releasing reset
+EMULATION	Initialization script (if any) done
+EMULATION	Final debug frequency set
+EMULATION	SoC ID match OK
+EMULATION	STARTED

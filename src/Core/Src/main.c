@@ -19,6 +19,9 @@
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
 #include "cmsis_os2.h"
+#include "dcache.h"
+#include "i2c.h"
+#include "icache.h"
 #include "memorymap.h"
 #include "gpio.h"
 
@@ -89,6 +92,9 @@ int main(void)
 
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
+  MX_DCACHE1_Init();
+  MX_ICACHE_Init();
+  MX_I2C2_Init();
   /* USER CODE BEGIN 2 */
   TaskSelection();
   /* USER CODE END 2 */
